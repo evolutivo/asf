@@ -1,0 +1,17 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* This file is not being used. It's just a reference for the default color.
+To change this color, edit base.css */
+
+a, .menu-dropdown li.active .level1, 
+.menu-sidebar a, .menu-sidebar li > span, 
+.color { color: #00b4E5; }
+
+a.button-more, p.links a, .button-primary {
+	background: #00a6d3 !important;
+	border-color: #0099c3 !important;
+}
+
+a.button-more:hover, p.links a:hover, .button-primary:hover {
+	box-shadow: 0 0 13px #00a6d3;
+}

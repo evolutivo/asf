@@ -1,0 +1,134 @@
+/**
+ * blogBox Theme css for feature slider
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+
+#slides {
+	position:relative;
+	top: 15px;
+	left: 15px;
+	z-index: 1000;
+	background-image: url(../images/feature_slider/slideshow_bg.png) ;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+#slides_full {
+	position: relative;
+	top: 30px;
+	left: 0px;
+	z-index: 1000;
+	background-image: url(../images/feature_slider/full_bg.png);
+	background-position: 35px 0px;
+	background-repeat: no-repeat;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#slides .slides_container {
+	width: 600px;
+	height: 325px;
+	overflow: hidden;
+	position: relative;
+	display: none;
+}
+
+#slides_full .slides_container {
+	width: 890px;
+	height: 465px;
+	overflow: hidden;
+	margin-left: 35px;
+	/*position: relative;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slides_container img {
+	width: 550px;
+	height: 275px;
+	margin-left: 23px;
+	margin-top: 15px;
+	display:block;
+}
+
+#slides_full .slides_container img {
+	width:850px;
+	height: 425px;
+	margin-left: 18px;
+	margin-top: 12px;
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+}
+
+#slides .next {
+	/*left:585px;*/
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	float:right;
+	margin-right: 100px;
+	margin-top: 0px;
+	/*KA hack*/
+	/*position:relative;
+	left:-50px;*/
+	/*end KA hack*/
+	/*margin:10px auto 0;
+	width:150px;*/
+}
+
+.pagination li {
+	float:left;
+	margin: 0;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/feature_slider/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+

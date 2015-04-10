@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <extension type="component" version="2.5">
+    <name>Pager</name>
+    <extensionname>Pager</extensionname>
+    <author>Iacopo Guarneri</author>
+    <creationDate>27/06/2012</creationDate>
+    <license>GNU/GPL</license>
+    <authorEmail>iacopo.guarneri@alice.it</authorEmail>
+    <authorUrl>http://www.the-html-tool.com/</authorUrl>
+    <version>1.0</version>
+    <description></description>
+
+    <files folder="site">
+        <folder>views</folder>
+		<filename>index.html</filename>
+		<filename>pager.php</filename>
+    </files>
+   
+	<administration>
+	<menu link="com_pager">Pager</menu>
+ 
+   <files folder="administrator">
+		<filename>join.png</filename>
+		<filename>pager.php</filename>
+		<filename>index.html</filename>
+    </files>
+	<languages folder="admin/language">
+		<language tag="en-GB">language/en-GB/en-GB.com_pager.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.com_pager.ini</language>
+	</languages>
+    </administration>
+</extension>

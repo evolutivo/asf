@@ -1,0 +1,20 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+a:hover,
+em,
+code,
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1,
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level3:hover,
+.menu-sidebar a:hover > span,
+.menu-sidebar span:hover > span, 
+.mod-box.underline h3.module-title span.color, 
+.color, 
+.striped a { color: #2fb4af; }
+
+.button-primary:hover { background: #2fb4af; }
+.striped a:hover, 
+.mod-box.underline h3.module-title span.color {
+	border-bottom-color: #2fb4af;
+}

@@ -1,0 +1,55 @@
+/**
+ * blogBox Theme White Skin
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+	body {
+		background-color: #c3c3c3;
+		background-image: url(../images/bg2.png);
+		background-repeat: repeat-x;
+	}
+	#header {
+		background-color: #fcfcfc;
+		border-top: 2px solid #1a3c83;
+			
+	}
+	.main-nav {
+		background-color: #fcfcfc;
+		border-bottom: 2px solid #1a3c83;		
+	}
+	.main-nav ul a {color: #595959;}
+	.main-nav ul a:hover {font-weight: bold;color: #595959;}
+	body #pagewrap {background-color: #fcfcfc;}
+	#widecolumn {background-color: #fcfcfc;}
+	#fullwidth {background-color: #fcfcfc;}
+	#fullfeature{background-color: #f7f7f7;}
+	#leftfeature{background-color: #f7f7f7;}
+	#rightfeature{background-color: #f7f7f7;}
+	#sidebar{background-color: #fcfcfc;}
+	#home1post{background-color: #f7f7f7;}
+	#slogan1, #homebuttonbox {background-color: #edecec;}
+	#slogan2{background-color: #f7f7f7;}
+	#footer {background-color: #edecec;}
+	#copyright {background-color: #fcfcfc;}
+	#header {color: #595959;}
+	#leftfeature {color: #595959;}
+	a:link, a:active, a:visited {color: #1a3c83;}
+	a:hover { color: #739aec;}
+	body #pagewrap {color: #595959;}
+	#homesection2 h1 {color: #595959;}
+	#footer {color: #595959;}
+	#footer a,#footer a:link {color: #1a3c83;}
+	#footer a:hover {color: #739aec;}
+	#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6 {color: #595959;}
+	#copyright {color: #595959;}
+	#copyright a{color: #1a3c83;}
+	#copyright a:hover {color: #739aec;}
+	table#wp-calendar td#today {color: #595959;}
+	table#wp-calendar th {border: 1px solid #fcfcfc;}
+	table#wp-calendar tbody td {border: 1px solid #fcfcfc;}
+	table#wp-calendar th {background-color: #fcfcfc;}
+	table#wp-calendar th {color: #595959;}

@@ -1,0 +1,1430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blogBox\n"
+"POT-Creation-Date: 2012-10-28 16:20-0700\n"
+"PO-Revision-Date: 2012-10-28 16:21-0700\n"
+"Last-Translator: Kevin Archibald <kevin@kevinsspace.ca>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+msgid "Sorry - Page Not Found"
+msgstr ""
+
+#: ../404.php:19
+msgid "Sorry but we can't find what you were looking for."
+msgstr ""
+
+#: ../404.php:20
+msgid "Can you refine your search and try again?"
+msgstr ""
+
+#: ../author.php:16
+msgid "Posts by Author"
+msgstr ""
+
+#: ../author.php:22 ../category.php:22 ../date.php:22 ../index.php:39
+#: ../page-home-blog.php:143 ../search.php:23 ../single.php:25 ../tag.php:22
+msgid "By:"
+msgstr ""
+
+#: ../author.php:23 ../category.php:23 ../date.php:23 ../index.php:40
+#: ../page-home-blog.php:144 ../search.php:24 ../single.php:26 ../tag.php:23
+msgid "In:"
+msgstr ""
+
+#: ../author.php:25 ../category.php:25 ../date.php:25 ../index.php:42
+#: ../page-home-blog.php:146 ../search.php:26 ../single.php:28 ../tag.php:25
+msgid "Comments"
+msgstr ""
+
+#: ../author.php:32 ../category.php:32 ../date.php:32 ../index.php:49
+#: ../page-home-blog.php:153 ../search.php:33 ../single.php:37 ../tag.php:32
+msgid "Read more"
+msgstr ""
+
+#: ../author.php:35 ../category.php:35 ../date.php:35 ../index.php:52
+#: ../page-home-blog.php:156 ../search.php:36 ../single.php:41 ../tag.php:35
+msgid "Pages"
+msgstr ""
+
+#: ../author.php:36 ../category.php:36 ../date.php:36 ../index.php:53
+#: ../page-home-blog.php:157 ../search.php:37 ../single.php:42 ../tag.php:36
+msgid "Edit"
+msgstr ""
+
+#: ../author.php:37 ../category.php:37 ../date.php:37 ../index.php:54
+#: ../page-home-blog.php:158 ../search.php:38 ../single.php:43 ../tag.php:37
+msgid "Tags: "
+msgstr ""
+
+#: ../author.php:38 ../index.php:55 ../page-home-blog.php:159
+msgid "Single Page Link"
+msgstr ""
+
+#: ../author.php:48 ../index.php:66 ../page-home-blog.php:169 ../search.php:49
+msgid "<< older entries"
+msgstr ""
+
+#: ../author.php:49 ../index.php:67 ../page-home-blog.php:170 ../search.php:50
+msgid " newer entries >>"
+msgstr ""
+
+#: ../author.php:56
+msgid "Sorry about that but we didn't find anything posted by that author!"
+msgstr ""
+
+#: ../author.php:57 ../category.php:57 ../date.php:57
+msgid "You may want to try another author."
+msgstr ""
+
+#: ../author.php:58 ../category.php:58 ../date.php:58 ../search.php:59
+#: ../single.php:63 ../tag.php:58
+msgid "Something to read?"
+msgstr ""
+
+#: ../author.php:59 ../category.php:59 ../date.php:59 ../search.php:60
+#: ../single.php:64 ../tag.php:59
+msgid "Want to read something else? These are the latest posts:"
+msgstr ""
+
+#: ../category.php:16
+msgid "Post by Category : "
+msgstr ""
+
+#: ../category.php:56
+msgid "Sorry about that but we didn't find anything posted by that category!"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:20
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../contact.php:30
+msgid "Please enter your name."
+msgstr ""
+
+#: ../contact.php:34
+msgid "Please enter your email address."
+msgstr ""
+
+#: ../contact.php:37
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: ../contact.php:41
+msgid "Please enter a message."
+msgstr ""
+
+#: ../contact.php:46
+msgid "Please enter the captcha exactly as shown"
+msgstr ""
+
+#: ../contact.php:57
+msgid "A message from "
+msgstr ""
+
+#: ../contact.php:58 ../contact.php:87
+msgid "Name:"
+msgstr ""
+
+#: ../contact.php:58
+msgid "Email: "
+msgstr ""
+
+#: ../contact.php:58
+msgid "Comments:"
+msgstr ""
+
+#: ../contact.php:75
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: ../contact.php:80
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: ../contact.php:95
+msgid "E-mail:"
+msgstr ""
+
+#: ../contact.php:102
+msgid "Message:"
+msgstr ""
+
+#: ../contact.php:110
+msgid "Verification : "
+msgstr ""
+
+#: ../contact.php:111
+msgid "Enter the Captcha letters"
+msgstr ""
+
+#: ../contact.php:120
+msgid "Send E-mail"
+msgstr ""
+
+#: ../date.php:16
+msgid "Archives for : "
+msgstr ""
+
+#: ../date.php:56
+msgid "Sorry about that but we didn't find anything posted in that month!"
+msgstr ""
+
+#: ../footer.php:28 ../footer.php:35 ../footer.php:42 ../footer.php:49
+msgid "This column is a widget area."
+msgstr ""
+
+#: ../footer.php:28
+msgid "Add widgets to Footer A, something, anything!"
+msgstr ""
+
+#: ../footer.php:35
+msgid "Add widgets to Footer B, something, anything!"
+msgstr ""
+
+#: ../footer.php:42
+msgid "Add widgets to Footer C, something, anything!"
+msgstr ""
+
+#: ../footer.php:49
+msgid "Add widgets to Footer D, something, anything!"
+msgstr ""
+
+#: ../page-archive.php:19
+msgid "Archives by Month:"
+msgstr ""
+
+#: ../page-archive.php:24
+msgid "Archives by Category:"
+msgstr ""
+
+#: ../page-archive.php:29
+msgid "Archives by Author:"
+msgstr ""
+
+#: ../page-home-blog.php:97 ../page-home.php:97
+msgid "Contact Me"
+msgstr ""
+
+#: ../page-portfolio_A.php:182 ../page-portfolio_B.php:183
+#: ../page-portfolio_C.php:183 ../page-portfolio_D.php:183
+#: ../page-portfolio_E.php:184
+msgid "Error: no posts or categories are wrong!"
+msgstr ""
+
+#: ../page-portfolio_A.php:187 ../page-portfolio_B.php:188
+#: ../page-portfolio_C.php:188 ../page-portfolio_D.php:188
+#: ../page-portfolio_E.php:189
+msgid "Error: There were no feature images found?"
+msgstr ""
+
+#: ../page-siteplan.php:19
+msgid "List of Pages for Website"
+msgstr ""
+
+#: ../search.php:17
+msgid "Search Results"
+msgstr ""
+
+#: ../search.php:57
+msgid "We found nothing!"
+msgstr ""
+
+#: ../search.php:58
+msgid "Your search query did not return any results. Try another search?"
+msgstr ""
+
+#: ../sidebar-contact.php:18 ../sidebar-left.php:18 ../sidebar-right.php:18
+#: ../sidebar.php:18
+msgid "Search"
+msgstr ""
+
+#: ../single.php:61
+msgid "Sorry about that - we couldn't find the post. Da link is not Da link!"
+msgstr ""
+
+#: ../single.php:62
+msgid "Don't know why, but contact us and we'll look into it."
+msgstr ""
+
+#: ../tag.php:16
+msgid "Posts for Tag : "
+msgstr ""
+
+#: ../tag.php:56
+msgid "Sorry about that but we didn't find anything posted with that tag!"
+msgstr ""
+
+#: ../tag.php:57
+msgid "You may want to try another tag."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:13
+#: ../library/blogBox_options.php:1414
+msgid "Background Color Options"
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:14
+msgid ""
+"If you feel adventurous blogBox allows you to develop your own color scheme."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:15
+#: ../help/text_colors_tab_help.php:14
+msgid "You can select the cell and then use the color wheel to pick a color."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:16
+#: ../help/text_colors_tab_help.php:15
+msgid ""
+"Select the dot on the circle and drag around the circle to get the major "
+"color you want."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:17
+msgid "Then drag the dot in the square to set the saturation."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:18
+#: ../help/text_colors_tab_help.php:17
+msgid "You can also copy in hex color numbers from other cells."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:19
+msgid ""
+"When you copy in the hex color, hit your \"Enter\" key for the box to change "
+"color."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:20
+msgid ""
+"It is also possible to put in a light or dark gradient over the background "
+"color."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:21
+msgid " Simply select the gradient you want from the dropdown box."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:22
+#: ../help/text_colors_tab_help.php:19
+msgid "Make sure you \"Save Settings\" when you are done."
+msgstr ""
+
+#: ../help/background_colors_tab_help.php:23
+#: ../help/text_colors_tab_help.php:20
+msgid "Note that if the entry is deleted and saved the default will be loaded."
+msgstr ""
+
+#: ../help/faq_tab_help.php:12 ../library/blogBox_options.php:1659
+msgid "blogBox Faq"
+msgstr ""
+
+#: ../help/faq_tab_help.php:13
+msgid "Where is the documentation for the theme?"
+msgstr ""
+
+#: ../help/faq_tab_help.php:14
+msgid "Full documentation is avaliable at"
+msgstr ""
+
+#: ../help/fonts_tab_help.php:12 ../library/blogBox_options.php:1436
+msgid "Font Options"
+msgstr ""
+
+#: ../help/fonts_tab_help.php:13
+msgid ""
+"blogBox allows the user to select different font styles for their websites."
+msgstr ""
+
+#: ../help/fonts_tab_help.php:14
+msgid "You can pick fonts for Header Text and for Body Text."
+msgstr ""
+
+#: ../help/fonts_tab_help.php:15
+msgid ""
+"In each group the user can either select from a standard font in the "
+"dropdown list or the user can use a Google Web font by clicking the checkbox "
+"and selecting a Google Web Font from a dropdown list."
+msgstr ""
+
+#: ../help/fonts_tab_help.php:16
+msgid "Make sure you \"Save Settings\" when your finished."
+msgstr ""
+
+#: ../help/general_tab_help.php:12 ../library/blogBox_options.php:1377
+msgid "General Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:13
+msgid "Email"
+msgstr ""
+
+#: ../help/general_tab_help.php:14
+msgid "\"Settings\" => \"General\" email is used if left blank.is used."
+msgstr ""
+
+#: ../help/general_tab_help.php:15
+msgid "Favicon"
+msgstr ""
+
+#: ../help/general_tab_help.php:16
+msgid ""
+"You will need to create a favicon.ico image and place it in the theme root "
+"folder."
+msgstr ""
+
+#: ../help/general_tab_help.php:17
+msgid "Captcha"
+msgstr ""
+
+#: ../help/general_tab_help.php:18
+msgid "If the Captcha is not working you need to disable it here."
+msgstr ""
+
+#: ../help/general_tab_help.php:19 ../library/blogBox_options.php:1382
+msgid "Header Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:20
+msgid "Blog Description"
+msgstr ""
+
+#: ../help/general_tab_help.php:21
+msgid "This is the Tagline under \"Settings\" => \"General\""
+msgstr ""
+
+#: ../help/general_tab_help.php:22 ../library/blogBox_options.php:1387
+msgid "Footer Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:23
+msgid "Copyright"
+msgstr ""
+
+#: ../help/general_tab_help.php:24
+msgid ""
+"The copyright section is a strip at the bottom of the footer that accepts "
+"html."
+msgstr ""
+
+#: ../help/general_tab_help.php:25
+msgid ""
+"Typically the copyright notice is on the left, a developer credit in the "
+"middle, and a siteplan link is on the right."
+msgstr ""
+
+#: ../help/general_tab_help.php:26 ../library/blogBox_options.php:1392
+msgid "Social Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:27 ../library/blogBox_options.php:165
+msgid "Header Phone Number"
+msgstr ""
+
+#: ../help/general_tab_help.php:28
+msgid ""
+"You can input any text here, but it is designed to be a phone contact for "
+"your business."
+msgstr ""
+
+#: ../help/general_tab_help.php:29 ../widgets/blogBox_social_widget.php:46
+msgid "Social Links"
+msgstr ""
+
+#: ../help/general_tab_help.php:30
+msgid ""
+"If you do not want the link to show leave the field blank. Make sure you "
+"test the link to ensure it works."
+msgstr ""
+
+#: ../help/home_tab_help.php:12
+msgid "Home Page Options"
+msgstr ""
+
+#: ../help/home_tab_help.php:13
+msgid ""
+"There are quite a few options for the home page. Please refer to the user "
+"documentation."
+msgstr ""
+
+#: ../help/home_tab_help.php:14
+msgid ""
+"The documentation takes you through setting up the home page step by step."
+msgstr ""
+
+#: ../help/home_tab_help.php:15
+msgid "However there are a couple of points worth repeating:"
+msgstr ""
+
+#: ../help/home_tab_help.php:16
+msgid "Small Slide Image Sizes"
+msgstr ""
+
+#: ../help/home_tab_help.php:17
+msgid "550 px wide by 275 px high"
+msgstr ""
+
+#: ../help/home_tab_help.php:18
+msgid "Large Slide Image Sizes"
+msgstr ""
+
+#: ../help/home_tab_help.php:19
+msgid "850 px wide by 425 px high"
+msgstr ""
+
+#: ../help/home_tab_help.php:20
+msgid "Service Box Image Sizes"
+msgstr ""
+
+#: ../help/home_tab_help.php:21
+msgid "250 px wide maximum by 100 px high maximum"
+msgstr ""
+
+#: ../help/home_tab_help.php:22
+msgid "Service Box Links"
+msgstr ""
+
+#: ../help/home_tab_help.php:23
+msgid ""
+"The service box has been set up as a link itself so when you hover the "
+"entire box is shadowed."
+msgstr ""
+
+#: ../help/home_tab_help.php:24
+msgid ""
+"It was designed this way to give the user the opportunity to put a link in "
+"regardless of which element is included in the box. "
+msgstr ""
+
+#: ../help/home_tab_help.php:25
+msgid ""
+" So if you have different content in each box, the hover highlight will be "
+"different. "
+msgstr ""
+
+#: ../help/home_tab_help.php:26
+msgid ""
+"While not a big concern it is nice to have the highlighted areas the same. "
+msgstr ""
+
+#: ../help/home_tab_help.php:27
+msgid ""
+"So if you add images, make them all the same size and include them for all "
+"service boxes. "
+msgstr ""
+
+#: ../help/home_tab_help.php:28
+msgid ""
+"If you add a title keep it to one line, and include it for all service "
+"boxes. "
+msgstr ""
+
+#: ../help/home_tab_help.php:29
+msgid ""
+"For the text section it is recommended to have the same number of lines in "
+"each service box. "
+msgstr ""
+
+#: ../help/home_tab_help.php:30
+msgid "If you don't, just add blank lines using &lt;br/&gt;."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:12
+msgid "Portfolio Page Options"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:13
+msgid "blogBox allows you to create up to 5 different Portfolio Templates."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:14
+msgid ""
+"These templates are popular in Wordpress as they offer a unique way of "
+"presenting your portfolio."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:15
+msgid "Up to four columns can be used in each Portfolio Page."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:16
+msgid ""
+"When you are working with 2,3, or 4 column portfolios, you should make a "
+"choice on the content to show."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:17
+msgid "Choose to either show content from the post or from the media image."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:18
+msgid ""
+"If you choose the media image content you can select Feature Caption and/or "
+"Feature Description."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:19
+msgid ""
+"If you pick all three and you can, the spacing may come out weird looking."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:20
+msgid ""
+"The pages were designed like this so you can create feature posts with a lot "
+"of text and images. "
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:21
+msgid ""
+"In such a case you should display content from the media Feature image. When "
+"the visitor clicks the image, they are taken to the full post."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:22
+msgid ""
+"To display the photos evenly across the page, the Feature Caption and "
+"Feature Description elements are a fixed height."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:23
+msgid "Images are posted by inserting feature images in posts:"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:24
+msgid "Create a new page with \"Portfolio A\" selected as the template"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:25
+msgid "Publish the Page"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:26
+msgid "Go to \"Appearance\" => \"blogBox Options\" => \"Portfolio Pages\" tab"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:27
+msgid "\"Portfolio Columns\" - select the number of columns you would like"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:28
+msgid "\"Portfolio Post Category\" - leave as default or use your own category"
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:29
+msgid ""
+"\"Show Post Content\" - Check the box if you want the content from the post "
+"to be shown, only applies for 2,3, and 4 column portfolios. For single "
+"column portfolios this is shown in the right hand column along with the post "
+"title, and is always shown."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:30
+msgid ""
+"\"Show Feature Image Caption\" - Check this box if you want the caption you "
+"put into the media upload panel for the feature image, to be shown."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:31
+msgid ""
+"\"Show Feature Image Description\" - Check this box if you want the "
+"description you put into the media upload panel for the feature image, to be "
+"shown."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:32
+msgid ""
+"\"Show Posts in Blog\" - Check this box if you want the posts for this "
+"Portfolio listed in your blog section."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:33
+msgid "Go to the bottom of the options panel and \"Save Settings\""
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:34
+msgid ""
+"Go to \"Posts\" => \"Categories\" and if the category you listed previously "
+"does not exist, create it."
+msgstr ""
+
+#: ../help/portfolio_tab_help.php:35
+msgid ""
+"Create the posts and ensure you have the category selected. Upload and "
+"install the featured image."
+msgstr ""
+
+#: ../help/skins_tab_help.php:12
+msgid "Skins Options"
+msgstr ""
+
+#: ../help/skins_tab_help.php:13
+msgid ""
+"Skins are predefined color settings for you theme. Simply check the box if "
+"you want to use a skin and select one of the available skins."
+msgstr ""
+
+#: ../help/text_colors_tab_help.php:12 ../library/blogBox_options.php:1425
+msgid "Text Color Options"
+msgstr ""
+
+#: ../help/text_colors_tab_help.php:13
+msgid "You can change the text colors for your theme."
+msgstr ""
+
+#: ../help/text_colors_tab_help.php:16
+msgid " Then drag the dot in the square to set the saturation."
+msgstr ""
+
+#: ../help/text_colors_tab_help.php:18
+msgid ""
+" When you copy in the hex color, hit your \"Enter\" key for the box to "
+"change color."
+msgstr ""
+
+#: ../library/blogBox_options.php:70
+msgid "blogBox Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:100
+msgid "Save Settings"
+msgstr ""
+
+#: ../library/blogBox_options.php:101
+msgid "Reset Defaults"
+msgstr ""
+
+#: ../library/blogBox_options.php:135
+msgid "Show Blog Title"
+msgstr ""
+
+#: ../library/blogBox_options.php:137
+msgid "Check to show blog title in header"
+msgstr ""
+
+#: ../library/blogBox_options.php:145
+msgid "Show Blog Description"
+msgstr ""
+
+#: ../library/blogBox_options.php:147
+msgid "Check to show description under logo"
+msgstr ""
+
+#: ../library/blogBox_options.php:155
+msgid "Show Social Strip"
+msgstr ""
+
+#: ../library/blogBox_options.php:157
+msgid "Check to show social strip in header"
+msgstr ""
+
+#: ../library/blogBox_options.php:167
+msgid "Enter your phone number if you want it in the header."
+msgstr ""
+
+#: ../library/blogBox_options.php:175
+msgid "Header Facebook URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:177
+msgid "Suggested Format:http://www.facebook.com/your_profile/"
+msgstr ""
+
+#: ../library/blogBox_options.php:185
+msgid "Header Twitter URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:187
+msgid "Suggested Format:http://twitter.com/your_twitter/"
+msgstr ""
+
+#: ../library/blogBox_options.php:195
+msgid "Header RSS URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:197
+msgid "Suggested Format:http://your.feed.url/feed/"
+msgstr ""
+
+#: ../library/blogBox_options.php:205
+msgid "Header Linkedin URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:207
+msgid "Suggested Format:http://ca.linkedin.com/profile link/"
+msgstr ""
+
+#: ../library/blogBox_options.php:215
+msgid "Header Delicious URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:217
+msgid "Suggested Format:http://www.delicious.com/save/"
+msgstr ""
+
+#: ../library/blogBox_options.php:225
+msgid "Header Digg URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:227
+msgid "Suggested Format:http://digg.com/user"
+msgstr ""
+
+#: ../library/blogBox_options.php:235
+msgid "Header Pinterest URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:237
+msgid "Suggested Format:http://pinterest.com/username/"
+msgstr ""
+
+#: ../library/blogBox_options.php:245
+msgid "Header Google Plus URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:247
+msgid "Suggested Format:https://plus.google.com/your_page_number/posts"
+msgstr ""
+
+#: ../library/blogBox_options.php:255
+msgid "Copyright left text"
+msgstr ""
+
+#: ../library/blogBox_options.php:257
+msgid ""
+"Some HTML allowed, suggest : &#38;copy; copyright &#60;a href=\"#\"&#62;www."
+"yoursite.url&#60;/a&#62;"
+msgstr ""
+
+#: ../library/blogBox_options.php:265
+msgid "Copyright middle text"
+msgstr ""
+
+#: ../library/blogBox_options.php:267
+msgid ""
+"Some HTML allowed, suggest : site by &#38;nbsp; &#60;a href=\"#\"&#62;www."
+"developer.url&#60;/a&#62;"
+msgstr ""
+
+#: ../library/blogBox_options.php:275
+msgid "Copyright right text"
+msgstr ""
+
+#: ../library/blogBox_options.php:277
+msgid "Some HTML allowed, suggest : &#60;a href=\"#\"&#62;sitemap&#60;/a&#62;"
+msgstr ""
+
+#: ../library/blogBox_options.php:285
+msgid "Email address for contact page"
+msgstr ""
+
+#: ../library/blogBox_options.php:287
+msgid "Must be a valid email address."
+msgstr ""
+
+#: ../library/blogBox_options.php:295
+msgid "Show Favicon"
+msgstr ""
+
+#: ../library/blogBox_options.php:297
+msgid "You must put favicon.ico in theme folder."
+msgstr ""
+
+#: ../library/blogBox_options.php:305
+msgid "Include Captcha in Comments Form"
+msgstr ""
+
+#: ../library/blogBox_options.php:307
+msgid "Check to include a captcha in your comments form."
+msgstr ""
+
+#: ../library/blogBox_options.php:315
+msgid "Include Captcha in Contact Form"
+msgstr ""
+
+#: ../library/blogBox_options.php:317
+msgid "Check to include a captcha in your contact form."
+msgstr ""
+
+#: ../library/blogBox_options.php:326
+msgid "Use Skin For Colors"
+msgstr ""
+
+#: ../library/blogBox_options.php:328
+msgid "Use a skin for background and text colors?"
+msgstr ""
+
+#: ../library/blogBox_options.php:336
+msgid "Skin For Theme"
+msgstr ""
+
+#: ../library/blogBox_options.php:346
+msgid "Select a skin to use."
+msgstr ""
+
+#: ../library/blogBox_options.php:355
+msgid "Outside Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:357
+msgid "default: #FFFFFF"
+msgstr ""
+
+#: ../library/blogBox_options.php:365
+msgid "Background Gradient"
+msgstr ""
+
+#: ../library/blogBox_options.php:372
+msgid "Select a gradient"
+msgstr ""
+
+#: ../library/blogBox_options.php:380
+msgid "Header Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:382 ../library/blogBox_options.php:533
+msgid "default: #576C9C"
+msgstr ""
+
+#: ../library/blogBox_options.php:390
+msgid "Header Top Border Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:392 ../library/blogBox_options.php:402
+#: ../library/blogBox_options.php:462 ../library/blogBox_options.php:472
+#: ../library/blogBox_options.php:513 ../library/blogBox_options.php:523
+msgid "default: #091C47"
+msgstr ""
+
+#: ../library/blogBox_options.php:400
+msgid "Header Bottom Border Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:410
+msgid "Feature Area Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:412 ../library/blogBox_options.php:422
+#: ../library/blogBox_options.php:432 ../library/blogBox_options.php:483
+#: ../library/blogBox_options.php:493 ../library/blogBox_options.php:503
+#: ../library/blogBox_options.php:553 ../library/blogBox_options.php:573
+#: ../library/blogBox_options.php:583 ../library/blogBox_options.php:603
+msgid "default: #F4F7FF"
+msgstr ""
+
+#: ../library/blogBox_options.php:420
+msgid "Main Area Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:430
+msgid "Home Page Post Area Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:440
+msgid "Home Page Slogan 1 Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:442 ../library/blogBox_options.php:452
+#: ../library/blogBox_options.php:563 ../library/blogBox_options.php:593
+msgid "default: #C6D8FF"
+msgstr ""
+
+#: ../library/blogBox_options.php:450
+msgid "Home Page Slogan 2 Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:460
+msgid "Footer Section Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:470
+msgid "Copyright Section Background Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:481
+msgid "Header Text Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:491
+msgid "Header Link Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:501
+msgid "Header Hover Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:511
+msgid "Feature Text Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:521
+msgid "Main Text Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:531
+msgid "Main Link Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:541
+msgid "Main Hover Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:543
+msgid "default: #8E7763"
+msgstr ""
+
+#: ../library/blogBox_options.php:551
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:561
+msgid "Footer Link Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:571
+msgid "Footer Hover Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:581
+msgid "Copyright Text Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:591
+msgid "Copyright Link Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:601
+msgid "Copyright Hover Color"
+msgstr ""
+
+#: ../library/blogBox_options.php:612
+msgid "Font for Headers"
+msgstr ""
+
+#: ../library/blogBox_options.php:625
+msgid "Select a font for headers (default: Verdana)"
+msgstr ""
+
+#: ../library/blogBox_options.php:633
+msgid "Use Google Header Font"
+msgstr ""
+
+#: ../library/blogBox_options.php:635
+msgid "Use a Google Font for Headers?"
+msgstr ""
+
+#: ../library/blogBox_options.php:643
+msgid "Google Font for Headers"
+msgstr ""
+
+#: ../library/blogBox_options.php:660
+msgid "Select a Google font for headers (default: Droid Serif)"
+msgstr ""
+
+#: ../library/blogBox_options.php:668
+msgid "Font for Body Text"
+msgstr ""
+
+#: ../library/blogBox_options.php:681
+msgid "Select a font for body text (default: Book Antiqua)"
+msgstr ""
+
+#: ../library/blogBox_options.php:689
+msgid "Use Google Body Font"
+msgstr ""
+
+#: ../library/blogBox_options.php:691
+msgid "Use a Google Font for Body Text?"
+msgstr ""
+
+#: ../library/blogBox_options.php:699
+msgid "Google Font for Body"
+msgstr ""
+
+#: ../library/blogBox_options.php:716
+msgid "Select a Google font for Body Text (default: Droid Sans)"
+msgstr ""
+
+#: ../library/blogBox_options.php:726
+msgid "Home Page Feature Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:733
+msgid "Select the feature option"
+msgstr ""
+
+#: ../library/blogBox_options.php:736
+msgid "Small slides and feature text box"
+msgstr ""
+
+#: ../library/blogBox_options.php:741
+msgid "Feature Title"
+msgstr ""
+
+#: ../library/blogBox_options.php:743
+msgid "Enter a title for the Feature Text Box"
+msgstr ""
+
+#: ../library/blogBox_options.php:751
+msgid "Feature Text"
+msgstr ""
+
+#: ../library/blogBox_options.php:753
+msgid "Keep length less than 200 characters."
+msgstr ""
+
+#: ../library/blogBox_options.php:761
+msgid "Show Feature Posts"
+msgstr ""
+
+#: ../library/blogBox_options.php:763
+msgid "Check to include Feature Posts in Blog"
+msgstr ""
+
+#: ../library/blogBox_options.php:772
+msgid "Enable Section 1"
+msgstr ""
+
+#: ../library/blogBox_options.php:774
+msgid "Check to display Section 1"
+msgstr ""
+
+#: ../library/blogBox_options.php:782
+msgid "Home Section 1 Slogan"
+msgstr ""
+
+#: ../library/blogBox_options.php:784
+msgid "Enter your text for your slogan."
+msgstr ""
+
+#: ../library/blogBox_options.php:792
+msgid "Contact Link"
+msgstr ""
+
+#: ../library/blogBox_options.php:794
+msgid "Suggested Format:http://your.website.url/contact/"
+msgstr ""
+
+#: ../library/blogBox_options.php:803
+msgid "Enable Section 2"
+msgstr ""
+
+#: ../library/blogBox_options.php:805
+msgid "Check to display Section 2"
+msgstr ""
+
+#: ../library/blogBox_options.php:813
+msgid "Service Box 1 Image URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:823
+msgid "Service Box 1 Title"
+msgstr ""
+
+#: ../library/blogBox_options.php:825
+msgid "Enter a title for Service Box 1"
+msgstr ""
+
+#: ../library/blogBox_options.php:833
+msgid "Service Box 1 Link"
+msgstr ""
+
+#: ../library/blogBox_options.php:835 ../library/blogBox_options.php:875
+#: ../library/blogBox_options.php:915
+msgid "Suggested Format:http://your.website.url/page/"
+msgstr ""
+
+#: ../library/blogBox_options.php:843
+msgid "Service Box 1 Text"
+msgstr ""
+
+#: ../library/blogBox_options.php:845 ../library/blogBox_options.php:885
+#: ../library/blogBox_options.php:925
+msgid "Enter text for your service box - html allowed"
+msgstr ""
+
+#: ../library/blogBox_options.php:853
+msgid "Service Box 2 Image URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:863
+msgid "Service Box 2 Title"
+msgstr ""
+
+#: ../library/blogBox_options.php:865
+msgid "Enter a title for Service Box 2"
+msgstr ""
+
+#: ../library/blogBox_options.php:873
+msgid "Service Box 2 Link"
+msgstr ""
+
+#: ../library/blogBox_options.php:883
+msgid "Service Box 2 Text"
+msgstr ""
+
+#: ../library/blogBox_options.php:893
+msgid "Service Box 3 Image URL"
+msgstr ""
+
+#: ../library/blogBox_options.php:903
+msgid "Service Box 3 Title"
+msgstr ""
+
+#: ../library/blogBox_options.php:905
+msgid "Enter a title for Service Box 3"
+msgstr ""
+
+#: ../library/blogBox_options.php:913
+msgid "Service Box 3 Link"
+msgstr ""
+
+#: ../library/blogBox_options.php:923
+msgid "Service Box 3 Text"
+msgstr ""
+
+#: ../library/blogBox_options.php:934
+msgid "Enable Section 3"
+msgstr ""
+
+#: ../library/blogBox_options.php:936
+msgid "Check to display Section 3"
+msgstr ""
+
+#: ../library/blogBox_options.php:944
+msgid "Section 3 Slogan"
+msgstr ""
+
+#: ../library/blogBox_options.php:946 ../library/blogBox_options.php:956
+msgid "Enter your text for your slogan"
+msgstr ""
+
+#: ../library/blogBox_options.php:954
+msgid "Section 3 Sub Slogan"
+msgstr ""
+
+#: ../library/blogBox_options.php:967 ../library/blogBox_options.php:1029
+#: ../library/blogBox_options.php:1091 ../library/blogBox_options.php:1153
+#: ../library/blogBox_options.php:1215
+msgid "Portfolio Columns"
+msgstr ""
+
+#: ../library/blogBox_options.php:970 ../library/blogBox_options.php:1032
+#: ../library/blogBox_options.php:1094 ../library/blogBox_options.php:1156
+#: ../library/blogBox_options.php:1218
+msgid "How many columns do you want?"
+msgstr ""
+
+#: ../library/blogBox_options.php:978 ../library/blogBox_options.php:1040
+#: ../library/blogBox_options.php:1102 ../library/blogBox_options.php:1164
+#: ../library/blogBox_options.php:1226
+msgid "Portfolio Post Category"
+msgstr ""
+
+#: ../library/blogBox_options.php:980
+msgid "Enter Post Category for Portfolio A"
+msgstr ""
+
+#: ../library/blogBox_options.php:988 ../library/blogBox_options.php:1050
+#: ../library/blogBox_options.php:1112 ../library/blogBox_options.php:1174
+#: ../library/blogBox_options.php:1236
+msgid "Show Post Content"
+msgstr ""
+
+#: ../library/blogBox_options.php:990 ../library/blogBox_options.php:1052
+#: ../library/blogBox_options.php:1114 ../library/blogBox_options.php:1176
+#: ../library/blogBox_options.php:1238
+msgid "note: content is always shown in 1 column portfolios."
+msgstr ""
+
+#: ../library/blogBox_options.php:998 ../library/blogBox_options.php:1060
+#: ../library/blogBox_options.php:1122 ../library/blogBox_options.php:1184
+#: ../library/blogBox_options.php:1246
+msgid "Show Feature Image Caption"
+msgstr ""
+
+#: ../library/blogBox_options.php:1000 ../library/blogBox_options.php:1062
+#: ../library/blogBox_options.php:1124 ../library/blogBox_options.php:1186
+#: ../library/blogBox_options.php:1248
+msgid "Check to show feature image caption"
+msgstr ""
+
+#: ../library/blogBox_options.php:1008 ../library/blogBox_options.php:1070
+#: ../library/blogBox_options.php:1132 ../library/blogBox_options.php:1194
+#: ../library/blogBox_options.php:1256
+msgid "Show Feature Image Description"
+msgstr ""
+
+#: ../library/blogBox_options.php:1010 ../library/blogBox_options.php:1072
+#: ../library/blogBox_options.php:1134 ../library/blogBox_options.php:1196
+#: ../library/blogBox_options.php:1258
+msgid "Check to show feature image description"
+msgstr ""
+
+#: ../library/blogBox_options.php:1018 ../library/blogBox_options.php:1080
+#: ../library/blogBox_options.php:1142 ../library/blogBox_options.php:1204
+#: ../library/blogBox_options.php:1266
+msgid "Show Posts in Blog"
+msgstr ""
+
+#: ../library/blogBox_options.php:1020
+msgid "Include Portfolio A posts in blog?"
+msgstr ""
+
+#: ../library/blogBox_options.php:1042
+msgid "Enter Post Category for Portfolio B"
+msgstr ""
+
+#: ../library/blogBox_options.php:1082
+msgid "Include Portfolio B posts in blog?"
+msgstr ""
+
+#: ../library/blogBox_options.php:1104
+msgid "Enter Post Category for Portfolio C"
+msgstr ""
+
+#: ../library/blogBox_options.php:1144
+msgid "Include Portfolio C posts in blog?"
+msgstr ""
+
+#: ../library/blogBox_options.php:1166
+msgid "Enter Post Category for Portfolio D"
+msgstr ""
+
+#: ../library/blogBox_options.php:1206
+msgid "Include Portfolio D posts in blog?"
+msgstr ""
+
+#: ../library/blogBox_options.php:1228
+msgid "Enter Post Category for Portfolio E"
+msgstr ""
+
+#: ../library/blogBox_options.php:1268
+msgid "Include Portfolio E posts in blog?"
+msgstr ""
+
+#: ../library/blogBox_options.php:1373 ../library/blogBox_options.php:1596
+msgid "General"
+msgstr ""
+
+#: ../library/blogBox_options.php:1399 ../library/blogBox_options.php:1605
+msgid "Skins"
+msgstr ""
+
+#: ../library/blogBox_options.php:1403
+msgid "Skin Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1404
+msgid "Instead of picking color options you can select a predefined skin."
+msgstr ""
+
+#: ../library/blogBox_options.php:1410 ../library/blogBox_options.php:1614
+msgid "Background Colors"
+msgstr ""
+
+#: ../library/blogBox_options.php:1415 ../library/blogBox_options.php:1426
+msgid "Input a hex color number or use the color wheel."
+msgstr ""
+
+#: ../library/blogBox_options.php:1421 ../library/blogBox_options.php:1623
+msgid "Text Colors"
+msgstr ""
+
+#: ../library/blogBox_options.php:1432 ../library/blogBox_options.php:1632
+msgid "Fonts"
+msgstr ""
+
+#: ../library/blogBox_options.php:1437
+msgid "You can use standard web fonts or a selection of Google fonts."
+msgstr ""
+
+#: ../library/blogBox_options.php:1443 ../library/blogBox_options.php:1641
+msgid "Home Page"
+msgstr ""
+
+#: ../library/blogBox_options.php:1447
+msgid "Feature Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1448
+msgid ""
+"These options set up the feature section right below the header section."
+msgstr ""
+
+#: ../library/blogBox_options.php:1452
+msgid "Section 1 Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1453
+msgid ""
+"Section 1 contains a slogan and a contact button, and is located right under "
+"the Feature Section."
+msgstr ""
+
+#: ../library/blogBox_options.php:1457
+msgid "Section 2 Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1458
+msgid ""
+"Section 2 contains 3 service boxes, and is located right under Section 1."
+msgstr ""
+
+#: ../library/blogBox_options.php:1462
+msgid "Section 3 Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1463
+msgid ""
+"Section 3 contains a slogan and a sub slogan and is located right under "
+"Section 2."
+msgstr ""
+
+#: ../library/blogBox_options.php:1469 ../library/blogBox_options.php:1650
+msgid "Portfolio Pages"
+msgstr ""
+
+#: ../library/blogBox_options.php:1473
+msgid "Portfolio A Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1478
+msgid "Portfolio B Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1483
+msgid "Portfolio C Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1488
+msgid "Portfolio D Options"
+msgstr ""
+
+#: ../library/blogBox_options.php:1493
+msgid "Portfolio E Options"
+msgstr ""
+
+#: ../widgets/blogBox_social_widget.php:39
+msgid "Display social links"
+msgstr ""
+
+#: ../widgets/blogBox_social_widget.php:41
+msgid "blogBox Social Links Widget"
+msgstr ""

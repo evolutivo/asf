@@ -1,0 +1,81 @@
+div.szakitable {
+	display:block;
+	position:relative;
+	clear:both;
+	margin: 5px 0 10px;
+}
+
+div.szakitable div.resize {
+	position:relative;
+	background-color:transparent;
+	z-index: 50;
+	overflow-x:hidden;
+}
+
+div.szakitable, div.szakitable  .hover, div.szakitable caption {
+	width:550px;
+}
+
+div.szakitable  .wide {
+	width:750px;
+}
+
+div.szakitable  .hover {
+	background-color:#fff!important;
+	box-shadow: 2px 2px 2px #AAA;
+	-moz-box-shadow: 2px 2px 2px #AAA;
+	-webkit-box-shadow:2px 2px 2px #AAA;
+}
+
+div.szakitable th { 
+    background-image: url(bgs.gif);     
+    cursor: pointer; 
+    background-repeat: no-repeat; 
+    background-position: right 50%;
+	padding-right:15px;
+	background-color:#ddd;
+}
+div.szakitable th.headerSortDown { 
+	background-position: right -112px;
+} 
+div.szakitable th.headerSortUp { 
+	background-position: right 4px;
+}
+
+input.szakitable {
+	background:#fff;
+	border: 1px solid #999;
+	width:90px;
+	color:#333;
+}
+div.szakitable div.filter{
+	font-size:0.9em;
+	display:inline-block;
+	padding:5px 5px 0;
+}
+
+div.szakitable caption {
+	font-size:110%;
+	text-transform:uppercase;
+	font-style:oblique;
+	color:#999;
+	font-weight:bold;
+}
+
+
+/* pager */
+div.szakitable #pager{
+	margin: 0;
+	text-align:left;
+	display:inline-block;
+}
+#pager a {
+	cursor:pointer;
+}
+#pager input{
+	width:30px;
+}
+#pager select{
+	width:60px;
+	margin-right:20px ;
+}

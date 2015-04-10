@@ -1,0 +1,106 @@
+Nusantara WordPress Theme Changelog
+===================================
+Version 0.0.1
+- Initial release.
+
+Version 0.0.2
+- Added text shadow options
+- Added Special thank's list
+- Change file.pot
+
+Version 0.0.3
+- Added box shadow options
+- Added border radius CSS3 options for rounded corner
+- Added text shadow options for borneo homepage
+- Change file.pot
+- Added widget padding for settings width
+- More indentations code
+- Clearing float borneo homepage sections
+- Search result pagination good now
+
+Version 0.0.4
+- Added template style
+- Theme check pass
+- Debogger pass
+- Deprecated Calls pass
+- Added border radius settings on batavia homepage
+- Added box shadow CSS3 settings for celebes homepage
+- Valid HTML5 markup on java homepage now
+
+Version 0.0.5
+- Provide jquery flexslider non minify
+- IE fixed for clearing float and image testimonial region
+- Added backup and restore options
+- Change file .pot
+- Added image thumbnail configurations on java home page
+
+Version 0.0.6
+- Added options for flexslider effect jquery
+- Added Custom post types portfolio
+- Added page template portfolio
+- Added custom post types single post for portfolio style
+- Fixed debug on general settings no debug now
+- Change paginations and breadcrumbs for support BBpress forum
+
+Version 0.0.7
+- Just change the screenshot
+
+Version 0.0.8
+- Fixed pagination portfolio page
+- CSS 3 button work now
+- Added sidebar portfolio type
+
+Version 0.0.9
+- fixed options button CSS3
+- Added class for fluid layout
+
+Version 0.1.0
+- just change the screenshot
+
+Version 0.1.1
+- Added 404.php
+- Fixed image rotator
+- Fixed options on/of with no border radius
+- Increase value font-size secondary menu
+- Change file .pot
+- Preparing retina display
+- CSS for support woocomerce
+- Added template style on post_types portfolio
+- Added template full width
+- Added margin-top image rotator widget
+
+Version 0.1.2
+- Change list style
+- Change again portfolio style
+
+Version 0.1.3
+- Change text domain krakatau
+
+Version 0.1.7
+- Fixed footer content
+
+Version 0.1.8
+- change footer style
+- change options style
+
+Version 0.1.9
+- Localized fixed
+- validate input
+- change descriptions
+
+Version 0.2.0
+- Just fixed file .pot for translation
+
+Version 0.2.1
+- Change description
+
+Version 0.2.2
+-Change screenshot
+
+Version 0.2.3
+- add blog template to display the latest entry
+
+Version 0.2.4
+- Some string not trans;ate able, now fixed
+- Remove Nusantara theme version on the footer
+- Fixed secondary menu options background color

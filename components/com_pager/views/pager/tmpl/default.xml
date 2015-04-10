@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+<fields name="params">	
+	<fieldset name="component" label="JCode" description="">	
+		<field name="name_page" type="sql" key_field="name_page" label="Name Page" query="SELECT name as name_page FROM #__pager_list_article" />
+		<field name="id_val" type="text" default="" label="Value identifier" description="" />		
+	</fieldset>
+</fields>	
+</metadata>

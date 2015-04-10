@@ -1,0 +1,14 @@
+/**
+ * @package		SP Download
+ * @subpackage	Components
+ * @copyright	SP CYEND - All rights reserved.
+ * @author		SP CYEND
+ * @link		http://www.cyend.com
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+div.imgOutline {
+	float: right;
+	border-left: 0 solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+}

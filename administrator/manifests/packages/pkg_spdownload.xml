@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+    <name>SP Download Package</name>
+    <creationDate>March 2013</creationDate>
+    <author>SP CYEND</author>
+    <authorEmail>info@cyend.com</authorEmail>
+    <authorUrl>http://www.cyend.com</authorUrl>
+    <copyright>SP CYEND - All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <packagename>spdownload</packagename>
+    <version>2.0.0</version>
+    <url>http://cyend.com/extensions/</url>
+    <packager>SP CYEND</packager>
+    <packagerurl>http://cyend.com/extensions/</packagerurl>
+    <description>SP Download Package</description>
+    <files>      		
+        <file type="plugin" id="spdownload" group="editors-xtd">spdownload_2.0.0.zip</file>
+        <file type="component" id="com_spdownload">com_spdownload_2.0.0.zip</file>    
+    </files>
+</extension>

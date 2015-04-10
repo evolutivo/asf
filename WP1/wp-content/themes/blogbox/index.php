@@ -1,0 +1,77 @@
+<?php
+/**
+ * Master/Default template file
+ *
+ * This file is the master/default template file, used when no other file matches in
+ * the {@link http://codex.wordpress.org/Template_Hierarchy Template Hierarchy}.
+ * 
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+?>
+<?php get_header(); ?>
+
+<?php
+	/* Get the user choices for the theme options */
+	global $blogBox_option;
+	$blogBox_option = blogBox_get_options();
+?>
+
+<div id="widecolumn">
+
+	<?php
+		$exclude_categories = blogBox_exclude_categories();
+		$temp = $wp_query;
+		$wp_query = null;
+		$wp_query = new WP_Query();
+		$wp_query->query('cat='.$exclude_categories.'&paged='.$paged);
+		if ($wp_query->have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<h2>
+					<?php if(is_sticky()) {echo '<img src="'.get_template_directory_uri().'/images/clip.png" alt="" />';} ?>
+					<a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+				</h2>
+				<div class="postmeta">
+					<span class="timestamp"><?php the_time('M j, Y'); ?></span>
+					<span class="author"><?php _e('By:','blogBox'); the_author_posts_link(); ?></span>
+					<span class="categories"><?php _e('In:','blogBox'); the_category(', '); ?></span>
+					<?php if ( comments_open()) { ?>
+						<span class="comments"><a href="<?php comments_link(); ?>"><?php _e('Comments','blogBox'); ?> [<?php echo get_comments_number(); ?>]</a></span>
+					<?php } ?>
+				</div>
+				<?php  if (has_post_thumbnail()) {
+        			the_post_thumbnail(array(600,600));
+    			} ?>
+				<div class="entry">
+					<?php the_content(__('Read more','blogBox')); ?>
+				</div>
+				<div class="postmetabottom">
+					<span class="pagelist"><?php $page_text = __('Pages','blogBox'); wp_link_pages('before='.$page_text.':&after='); ?></span>
+					<span class="edit"><?php edit_post_link(__('Edit','blogBox')); ?></span>
+					<span class="taglist"><?php the_tags(__('Tags: ','blogBox')); ?></span>
+					<?php if(get_the_title()=="") echo '<a href="'.get_permalink().'" rel="bookmark" title="Untitled Link" >'.__("Single Page Link","blogBox").'</a>'; ?>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		<?php endwhile; ?>
+			<?php if(function_exists('wp_pagenavi')) {
+ 				echo '<div class="postpagenav">';
+ 					wp_pagenavi();
+				echo '</div>';
+			} else { ?>
+			<div class="postpagenav">
+				<div class="left"><?php next_posts_link(__('<< older entries','blogBox') ); ?></div>
+				<div class="right"><?php previous_posts_link(__(' newer entries >>','blogBox') ); ?></div>
+				<br/>
+			</div>
+			<?php } ?>
+			<?php $wp_query = null; $wp_query = $temp;?>
+		<?php else : ?>
+		<?php endif; ?>
+		<br/>
+	</div>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

@@ -1,0 +1,1917 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nusantara WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-18 13:20+0700\n"
+"PO-Revision-Date: 2012-11-18 13:20+0700\n"
+"Last-Translator: Hendro Prayitno <hasilent00@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#:404.php:11
+msgid "404 Error: Not found"
+msgstr ""
+
+#:404.php:14
+msgid ""
+"The page you trying to reach does not exist, or has been moved. Please use "
+"the menus or the search box to find what you are looking for"
+msgstr ""
+
+#:archive.php:10
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#:archive.php:12
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#:archive.php:12
+msgid "F Y"
+msgstr ""
+
+#:archive.php:14
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#:archive.php:14
+msgid "Y"
+msgstr ""
+
+#:archive.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#:archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#:archive.php:28
+msgid "Blog Archives"
+msgstr ""
+
+#:archive.php:41
+#:home-andalas.php:92
+#:home-borneo.php:39
+#:home-celebes.php:30
+#:home-java.php:25
+#:home-papua.php:23
+#:page.php:23
+#:search.php:28
+#:single-onecolumn.php:22
+#:single-threecolumn.php:28
+#:single-twocolumn.php:22
+#:page
+#: templates/template-3column.php:33 templates/template-blog.php:26
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s by %3$s"
+msgstr ""
+
+#:archive.php:55
+#:home-andalas.php:108
+#:home-borneo.php:55
+#:home-celebes.php:46
+#:home-java.php:41
+#:home-papua.php:39
+#:search.php:43
+#:page
+#: templates/template-blog.php:42
+msgid "No comments"
+msgstr ""
+
+#:archive.php:55
+#:home-andalas.php:108
+#:home-borneo.php:55
+#:home-celebes.php:46
+#:home-java.php:41
+#:home-papua.php:39
+#:search.php:43
+#:page
+#: templates/template-blog.php:42
+msgid "One comment"
+msgstr ""
+
+#:archive.php:55
+#:home-andalas.php:108
+#:home-borneo.php:55
+#:home-celebes.php:46
+#:home-java.php:41
+#:home-papua.php:39
+#:search.php:43
+#:page
+#: templates/template-blog.php:42
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#:archive.php:66
+#:page.php:56
+#:search.php:53
+#:single-onecolumn.php:55
+#:single-threecolumn.php:61
+#:single-twocolumn.php:55
+#:page
+#: templates/template-3column.php:66
+msgid "Category: "
+msgstr ""
+
+#:archive.php:67
+#:page.php:59
+#:search.php:54
+#:single-onecolumn.php:58
+#:single-threecolumn.php:64
+#:single-twocolumn.php:58
+#:page
+#: templates/template-3column.php:69
+msgid "Tags: "
+msgstr ""
+
+#:archive.php:74
+#:search.php:70
+#:page
+#: templates/template-blog.php:57
+msgid "<span class=\"meta-nav\">&laquo;</span> Next"
+msgstr ""
+
+#:archive.php:75
+#:search.php:71
+#:page
+#: templates/template-blog.php:58
+msgid "Previous <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#:comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#:comments.php:13
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#:comments.php:19
+#:comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#:comments.php:20
+#:comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#:comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#:comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#:footer-content.php:10
+msgid "Tag Cloud"
+msgstr ""
+
+#:footer-content.php:21
+#:sidebar.php:4
+msgid "Archives"
+msgstr ""
+
+#:footer-content.php:32
+#:sidebar-ntt.php:5
+msgid "Recent Post"
+msgstr ""
+
+#:footer-content.php:37
+#:sidebar-ntt.php:10
+#:page
+#: templates/template-blog.php:22 templates/template-sitemap.php:30
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#:footer-content.php:49
+#:sidebar-1c.php:4
+msgid "Meta"
+msgstr ""
+
+#:footer.php:10
+msgid "http://amdhas.com"
+msgstr ""
+
+#:footer.php:10
+msgid "Proudly powered by"
+msgstr ""
+
+#:footer.php:10
+msgid "http://wordpress.org"
+msgstr ""
+
+#:functions.php:38
+#:inc/tab/menu-element.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#:functions.php:38
+#:inc/tab/menu-element.php:104
+msgid "Secondary Menu"
+msgstr ""
+
+#:functions.php:118
+msgid "one-column"
+msgstr ""
+
+#:functions.php:119
+msgid "One column area"
+msgstr ""
+
+#:functions.php:125
+msgid "one-column-left"
+msgstr ""
+
+#:functions.php:126
+msgid "One column left area"
+msgstr ""
+
+#:functions.php:132
+msgid "one-column-right"
+msgstr ""
+
+#:functions.php:133
+msgid "One column right area"
+msgstr ""
+
+#:functions.php:141
+msgid "two-columns-region1"
+msgstr ""
+
+#:functions.php:142
+msgid "Two columns area - 1"
+msgstr ""
+
+#:functions.php:148
+msgid "two-columns-region2"
+msgstr ""
+
+#:functions.php:149
+msgid "Two columns area - 2"
+msgstr ""
+
+#:functions.php:157
+msgid "three-columns-region1"
+msgstr ""
+
+#:functions.php:158
+msgid "Three columns area - 1"
+msgstr ""
+
+#:functions.php:164
+msgid "three-columns-region2"
+msgstr ""
+
+#:functions.php:165
+msgid "Three columns area - 2"
+msgstr ""
+
+#:functions.php:171
+msgid "three-columns-region3"
+msgstr ""
+
+#:functions.php:172
+msgid "Three columns area - 3"
+msgstr ""
+
+#:functions.php:180
+msgid "four-columns-region1"
+msgstr ""
+
+#:functions.php:181
+#:functions.php:188
+#:functions.php:195
+msgid "Four columns area - 3"
+msgstr ""
+
+#:functions.php:187
+msgid "four-columns-region2"
+msgstr ""
+
+#:functions.php:194
+msgid "four-columns-region3"
+msgstr ""
+
+#:functions.php:201
+msgid "four-columns-region4"
+msgstr ""
+
+#:functions.php:202
+msgid "Four columns area - 4"
+msgstr ""
+
+#:functions.php:210
+msgid "footer left"
+msgstr ""
+
+#:functions.php:211
+msgid "footer left area"
+msgstr ""
+
+#:functions.php:217
+msgid "footer midlle"
+msgstr ""
+
+#:functions.php:218
+msgid "footer midle area"
+msgstr ""
+
+#:functions.php:224
+msgid "footer right"
+msgstr ""
+
+#:functions.php:225
+msgid "fotter right area"
+msgstr ""
+
+#:functions.php:231
+msgid "footer right last"
+msgstr ""
+
+#:functions.php:232
+msgid "fotter right area - the last"
+msgstr ""
+
+#:functions.php:280
+msgid "Read more &raquo;"
+msgstr ""
+
+#:functions.php:316
+msgid "Pingback:"
+msgstr ""
+
+#:functions.php:316
+#:functions.php:329
+msgid "Edit"
+msgstr ""
+
+#:functions.php:327
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#:functions.php:327
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#:functions.php:332
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#:functions.php:343
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#:functions.php:366
+msgid ""
+"<span class=\"clearfix\"></span><span class=\"read-more\">Read more &raquo;</"
+"span>"
+msgstr ""
+
+#:functions.php:400
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#:functions.php:560
+msgid "Home"
+msgstr ""
+
+#:functions.php:579
+msgid "Archive for "
+msgstr ""
+
+#:functions.php:632
+#:search.php:15
+msgid "Search results for "
+msgstr ""
+
+#:functions.php:635
+msgid "Posts tagged "
+msgstr ""
+
+#:functions.php:640
+msgid "All posts by "
+msgstr ""
+
+#:functions.php:643
+msgid "Error 404 "
+msgstr ""
+
+#:functions.php:648
+msgid "Page"
+msgstr ""
+
+#:home-andalas.php:58
+#:home-batavia.php:52
+msgid "Your button here"
+msgstr ""
+
+#:home-celebes.php:60
+#:home-java.php:55
+#:home-papua.php:55
+#:page.php:82
+#:search.php:78
+#:single-onecolumn.php:81
+#:single-threecolumn.php:87
+#:single-twocolumn.php:81
+#:page
+#: templates/template-3column.php:92 templates/template-blog.php:66
+msgid ""
+"No matches. Please try again, or use the navigation menus to find what you "
+"search for."
+msgstr ""
+
+#:page.php:45
+#:single-onecolumn.php:44
+#:single-threecolumn.php:50
+#:single-twocolumn.php:44
+#:page
+#: templates/template-3column.php:55 templates/template-blog.php:49
+#: templates/template-sitemap.php:45
+msgid "Pages:"
+msgstr ""
+
+#:page.php:63
+#:single-onecolumn.php:62
+#:single-threecolumn.php:68
+#:single-twocolumn.php:62
+#:page
+#: templates/template-3column.php:73 templates/template-sitemap.php:48
+msgid "&larr;"
+msgstr ""
+
+#:page.php:66
+#:single-onecolumn.php:65
+#:single-threecolumn.php:71
+#:single-twocolumn.php:65
+#:page
+#: templates/template-3column.php:76 templates/template-sitemap.php:51
+msgid "&rarr;"
+msgstr ""
+
+#:sidebar-3c.php:5
+msgid "Three columns region1"
+msgstr ""
+
+#:sidebar-3c.php:6
+#:sidebar-3c.php:15
+#:sidebar-3c.php:24
+msgid ""
+"<p  class=\"centering\">Lorem ipsum dolor sit amet, consectetuer adipiscing "
+"elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt.</"
+"p>"
+msgstr ""
+
+#:sidebar-3c.php:14
+msgid "Three columns region2"
+msgstr ""
+
+#:sidebar-3c.php:23
+msgid "Three columns region3"
+msgstr ""
+
+#:inc/interface.php:29
+msgid "Nusantara Theme Options"
+msgstr ""
+
+#:inc/interface.php:29
+msgid "Nusantara Options"
+msgstr ""
+
+#:inc/interface.php:54
+msgid "top"
+msgstr ""
+
+#:inc/interface.php:55
+msgid "Save"
+msgstr ""
+
+#:inc/interface.php:56
+msgid "bottom"
+msgstr ""
+
+#:inc/interface.php:60
+msgid "Nusantara Options Updated"
+msgstr ""
+
+#:inc/interface.php:63
+msgid "Nusantara Options Reset"
+msgstr ""
+
+#:inc/interface.php:66
+msgid "Nusantara Options Error!"
+msgstr ""
+
+#:inc/interface.php:77
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#:inc/interface.php:83
+msgid "Expand"
+msgstr ""
+
+#:inc/interface.php:87
+#:inc/interface.php:103
+msgid "Save All Changes"
+msgstr ""
+
+#:inc/interface.php:104
+msgid "Options Reset"
+msgstr ""
+
+#:inc/interface.php:782
+msgid "Last Backup : "
+msgstr ""
+
+#:inc/interface.php:822
+msgid "Upload"
+msgstr ""
+
+#:inc/mediauploader.php:7
+msgid "Options"
+msgstr ""
+
+#:inc/mediauploader.php:142
+msgid "Gallery"
+msgstr ""
+
+#:inc/mediauploader.php:142
+msgid "Previously Uploaded"
+msgstr ""
+
+#:inc/options.php:16
+msgid "slider, description, button"
+msgstr ""
+
+#:inc/options.php:17
+msgid "Description intro one column"
+msgstr ""
+
+#:inc/options.php:18
+msgid "Testimonial Regions"
+msgstr ""
+
+#:inc/options.php:19
+msgid "Three column area widget"
+msgstr ""
+
+#:inc/options.php:20
+msgid "Two column area widget"
+msgstr ""
+
+#:inc/options.php:21
+msgid "Footer four columns area widget"
+msgstr ""
+
+#:inc/options.php:26
+#:inc/options.php:43
+msgid "One column area widget"
+msgstr ""
+
+#:inc/options.php:27
+#:inc/options.php:44
+#:inc/options.php:78
+msgid "Four column area widget"
+msgstr ""
+
+#:inc/options.php:35
+msgid "Slider, descriptions, heading, button"
+msgstr ""
+
+#:inc/options.php:36
+msgid "Content Three columns"
+msgstr ""
+
+#:inc/options.php:37
+#:inc/options.php:76
+msgid "two column area widget"
+msgstr ""
+
+#:inc/options.php:38
+#:inc/options.php:71
+#:inc/options.php:89
+msgid "Sidebar footer"
+msgstr ""
+
+#:inc/options.php:53
+msgid "Article regions"
+msgstr ""
+
+#:inc/options.php:54
+msgid "sidebar one column"
+msgstr ""
+
+#:inc/options.php:55
+#:inc/options.php:107
+#:inc/options.php:123
+#:inc/options.php:141
+#:inc/options.php:156
+#:inc/options.php:172
+#:inc/options.php:188
+#:inc/options.php:204
+#:inc/options.php:222
+msgid "footer sidebar"
+msgstr ""
+
+#:inc/options.php:69
+#:inc/options.php:94
+msgid "Slider responsive area"
+msgstr ""
+
+#:inc/options.php:70
+msgid "Content box and sidebar"
+msgstr ""
+
+#:inc/options.php:77
+msgid "three column area widget"
+msgstr ""
+
+#:inc/options.php:88
+msgid "content"
+msgstr ""
+
+#:inc/options.php:104
+#:inc/options.php:138
+#:inc/options.php:219
+msgid "left sidebar"
+msgstr ""
+
+#:inc/options.php:105
+#:inc/options.php:121
+#:inc/options.php:139
+#:inc/options.php:155
+#:inc/options.php:170
+#:inc/options.php:186
+#:inc/options.php:202
+#:inc/options.php:220
+msgid "Content area post"
+msgstr ""
+
+#:inc/options.php:106
+#:inc/options.php:140
+#:inc/options.php:221
+msgid "right sidebar"
+msgstr ""
+
+#:inc/options.php:122
+#:inc/options.php:203
+msgid "sidebar one and two"
+msgstr ""
+
+#:inc/options.php:171
+#:inc/options.php:187
+msgid "sidebar"
+msgstr ""
+
+#:inc/options.php:237
+msgid "Primary menu"
+msgstr ""
+
+#:inc/options.php:238
+msgid "Title and search form"
+msgstr ""
+
+#:inc/options.php:239
+msgid "secondary menu"
+msgstr ""
+
+#:inc/options.php:261
+msgid "select your effect"
+msgstr ""
+
+#:inc/options.php:262
+msgid "Fade effect responsive"
+msgstr ""
+
+#:inc/options.php:263
+msgid "Slide effect responsive"
+msgstr ""
+
+#:inc/options.php:269
+msgid "Introductions"
+msgstr ""
+
+#:inc/options.php:276
+msgid ""
+"<p class=\"bigo\">Welcome to Nusantara WordPress Theme</p>\n"
+"            <p class=\"intro-admin centering\">Thank you for choice "
+"Nusantara WordPress theme, you might think the theme is hard to use,\n"
+"actually its not, you probably just might jump to the options page and "
+"explore everything yourself. You can get all documentations for Nusantara "
+"theme on my website <a href=\"http://amdhas.com/\">amdhas.com</a>.  If you "
+"have any questions, please feel free to post your questions on my support "
+"forum at <a href=\"http://amdhas.com/support/\">http://amdhas.com/support</"
+"a>. You can also upgrade this theme to <a href=\"http://amdhas.com/shop"
+"\">premium version</a>. Thanks so much!</p>\n"
+"           \n"
+"   <div class=\"clear\"></div>\n"
+msgstr ""
+
+#:inc/options.php:287
+#:inc/options.php:299
+msgid "Logical Element"
+msgstr ""
+
+#:inc/options.php:292
+msgid ""
+"<div class=\"bigo\">TWO MAGIC BUTTON!</div>\n"
+"                                                     <p class=\"intro-admin "
+"centering\">You should enable both of them, if you disable logical element "
+"you can not setup your element like font, border, margin, color, menu, etc.</"
+"p>\n"
+"                                                      <p class=\"intro-admin "
+"centering\">This very important for your Nusantara Theme, If you want make "
+"elegant site without open your code file.</p>"
+msgstr ""
+
+#:inc/options.php:300
+msgid "<b>Click here to enable Logical Element</b>"
+msgstr ""
+
+#:inc/options.php:311
+msgid ""
+"<div class=bigo>The best way to create dynamic CSS for your theme</div>\n"
+"            <p class=\"intro-admin centering\">Source article : <a href="
+"\"http://vatuma.com/tutorials-tips-and-tricks/for-developers/creating-"
+"dynamic-css-for-wp-theme.html\">vatuma.com</a></"
+"p>                                                  \n"
+"            <p>When you design your own WordPress theme you probably use an "
+"option page with options that affect your theme appearance. If so, you need "
+"to create dynamic css for the theme and insert it into pages. When you make "
+"the call to get the page, it creates the page and outputs all the dynamic "
+"stuff in one shot. Some people find the CSS in the html to be aesthetically "
+"displeasing, but the fact of the matter is that this is the fastest, "
+"simplest, and best way to do it.</p><p>The most sensible thing to do is to "
+"go ahead and generate the dynamic part of the CSS right now as well. Just "
+"make that dynamic part as small as possible. Minify it into one-line if you "
+"want. Note that WordPress itself uses this metodh for the custom background "
+"image and custom header image stuff. It does it this way because it is the "
+"best way to do it.</p><div class=\"clear\"></div>"
+msgstr ""
+
+#:inc/options.php:318
+msgid "Compressor"
+msgstr ""
+
+#:inc/options.php:319
+msgid "<b>Click here to Enable Compression</b>"
+msgstr ""
+
+#:inc/tab/ads-tab.php:8
+msgid "<div class=\"bigo\">Ads area !</div>"
+msgstr ""
+
+#:inc/tab/ads-tab.php:13
+msgid "Banner on ads single post - After title on the top"
+msgstr ""
+
+#:inc/tab/ads-tab.php:14
+msgid ""
+"Put your code ads here. Will appear on single post, the position your banner "
+"after title every single post"
+msgstr ""
+
+#:inc/tab/ads-tab.php:21
+msgid "Banner on ads single post - After post in the bottom"
+msgstr ""
+
+#:inc/tab/ads-tab.php:22
+msgid ""
+"Put your code ads here. Will appear on single post, the position your banner "
+"after post in the bottom every single post"
+msgstr ""
+
+#:inc/tab/andalas.php:3
+msgid "Andalas Home"
+msgstr ""
+
+#:inc/tab/andalas.php:9
+msgid "<div class=\"bigo\">ANDALAS HOMEPAGE SECTIONS</div>"
+msgstr ""
+
+#:inc/tab/andalas.php:19
+#:inc/tab/batavia.php:20
+msgid "Welcome Text H2"
+msgstr ""
+
+#:inc/tab/andalas.php:26
+#:inc/tab/batavia.php:27
+msgid "Description before button"
+msgstr ""
+
+#:inc/tab/andalas.php:33
+#:inc/tab/batavia.php:34
+msgid "Text button"
+msgstr ""
+
+#:inc/tab/andalas.php:40
+msgid "URL button"
+msgstr ""
+
+#:inc/tab/andalas.php:47
+#:inc/tab/batavia.php:48
+msgid "Show the button"
+msgstr ""
+
+#:inc/tab/andalas.php:54
+#:inc/tab/borneo.php:20
+#:inc/tab/celebes.php:21
+#:inc/tab/java.php:40
+#:inc/tab/papua.php:20
+#:inc/tab/single-layout.php:43
+msgid "Enable settings"
+msgstr ""
+
+#:inc/tab/andalas.php:55
+#:inc/tab/borneo.php:21
+#:inc/tab/celebes.php:22
+#:inc/tab/java.php:41
+#:inc/tab/papua.php:21
+#:inc/tab/single-layout.php:44
+msgid "check here if you like to enable settings"
+msgstr ""
+
+#:inc/tab/andalas.php:63
+msgid "Andalas Box padding"
+msgstr ""
+
+#:inc/tab/andalas.php:64
+msgid "<b>Padding box</b>"
+msgstr ""
+
+#:inc/tab/andalas.php:77
+msgid "<b>Border box</b>"
+msgstr ""
+
+#:inc/tab/andalas.php:89
+msgid "<b>Margin box</b>"
+msgstr ""
+
+#:inc/tab/andalas.php:102
+#:inc/tab/borneo.php:85
+msgid "Title typhography"
+msgstr ""
+
+#:inc/tab/andalas.php:116
+#:inc/tab/batavia.php:178
+#:inc/tab/batavia.php:270
+msgid "Repeat background image"
+msgstr ""
+
+#:inc/tab/andalas.php:124
+#:inc/tab/batavia.php:109
+#:inc/tab/batavia.php:186
+#:inc/tab/batavia.php:278
+#:inc/tab/borneo.php:61
+#:inc/tab/borneo.php:251
+#:inc/tab/celebes.php:70
+#:inc/tab/celebes.php:214
+#:inc/tab/general.php:145
+#:inc/tab/java.php:99
+#:inc/tab/section-header.php:99
+msgid "Background Position"
+msgstr ""
+
+#:inc/tab/andalas.php:133
+msgid "Choose your background boxes"
+msgstr ""
+
+#:inc/tab/andalas.php:141
+#:inc/tab/batavia.php:126
+#:inc/tab/batavia.php:203
+#:inc/tab/batavia.php:295
+#:inc/tab/borneo.php:43
+#:inc/tab/borneo.php:233
+#:inc/tab/celebes.php:52
+#:inc/tab/celebes.php:196
+#:inc/tab/general.php:162
+#:inc/tab/java.php:81
+msgid "Upload your image for background"
+msgstr ""
+
+#:inc/tab/backup.php:3
+msgid "Backup Options"
+msgstr ""
+
+#:inc/tab/backup.php:7
+msgid ""
+"<div class=\"bigo\">Backup your options !</"
+"div>                                                        \n"
+"                      <p class=\"intro-admin centering\">You can use the two "
+"buttons below to backup your current options, and then restore it back at a "
+"later time. This is useful if you want to experiment on the options but "
+"would like to keep the old settings in case you need it back.</p>\n"
+"                 <div class=\"clear\"></div>"
+msgstr ""
+
+#:inc/tab/backup.php:14
+msgid "Backup and restore your last configurations"
+msgstr ""
+
+#:inc/tab/batavia.php:3
+msgid "Batavia Home"
+msgstr ""
+
+#:inc/tab/batavia.php:9
+msgid "<div class=\"bigo\">BATAVIA HOMEPAGE SECTIONS</div>"
+msgstr ""
+
+#:inc/tab/batavia.php:41
+msgid "URL Button"
+msgstr ""
+
+#:inc/tab/batavia.php:56
+msgid "<p class=\"title-sechome\">ENABLE BATAVIA SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/batavia.php:61
+msgid "Enable batavia settings"
+msgstr ""
+
+#:inc/tab/batavia.php:62
+msgid "check here if you like to Enable batavia settings"
+msgstr ""
+
+#:inc/tab/batavia.php:72
+msgid "Heading text welcome"
+msgstr ""
+
+#:inc/tab/batavia.php:87
+msgid "<p class=\"title-sechome\">Welcome text full width</p>"
+msgstr ""
+
+#:inc/tab/batavia.php:92
+msgid "Intro one column"
+msgstr ""
+
+#:inc/tab/batavia.php:100
+#:inc/tab/borneo.php:52
+#:inc/tab/borneo.php:242
+#:inc/tab/celebes.php:61
+#:inc/tab/celebes.php:205
+#:inc/tab/general.php:137
+#:inc/tab/java.php:90
+msgid "background repeat"
+msgstr ""
+
+#:inc/tab/batavia.php:118
+#:inc/tab/borneo.php:35
+#:inc/tab/borneo.php:225
+#:inc/tab/borneo.php:366
+#:inc/tab/celebes.php:44
+#:inc/tab/celebes.php:188
+#:inc/tab/general.php:154
+#:inc/tab/java.php:51
+msgid "background color"
+msgstr ""
+
+#:inc/tab/batavia.php:136
+msgid "<p class=\"title-sechome\">Testimonial unlimited element</p>"
+msgstr ""
+
+#:inc/tab/batavia.php:141
+msgid "Enable page testimonial"
+msgstr ""
+
+#:inc/tab/batavia.php:150
+msgid "Title page testimonial"
+msgstr ""
+
+#:inc/tab/batavia.php:158
+msgid "Unlimited testimonial with image..just fill out"
+msgstr ""
+
+#:inc/tab/batavia.php:159
+msgid "Unlimited testimonial or description"
+msgstr ""
+
+#:inc/tab/batavia.php:167
+msgid "Aside image testimonial region"
+msgstr ""
+
+#:inc/tab/batavia.php:168
+msgid "Enter your image aside testimonial region"
+msgstr ""
+
+#:inc/tab/batavia.php:177
+msgid "Testimonial skin configurations"
+msgstr ""
+
+#:inc/tab/batavia.php:195
+msgid "Choose your background testimonial"
+msgstr ""
+
+#:inc/tab/batavia.php:212
+msgid "<b>Padding testimonial</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:225
+#:inc/tab/java.php:122
+#:inc/tab/java.php:247
+#:inc/tab/menu-element.php:83
+msgid "<b>Border</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:237
+#:inc/tab/batavia.php:366
+#:inc/tab/borneo.php:205
+#:inc/tab/borneo.php:309
+#:inc/tab/celebes.php:128
+#:inc/tab/celebes.php:272
+msgid "<b>Border radius CSS3 - Rounded corner</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:250
+#:inc/tab/batavia.php:379
+#:inc/tab/celebes.php:154
+#:inc/tab/celebes.php:298
+msgid "<b>CSS3 box shadow</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:265
+msgid "<p class=\"title-sechome\">Three column batavia</p>"
+msgstr ""
+
+#:inc/tab/batavia.php:287
+msgid "Choose your background three column"
+msgstr ""
+
+#:inc/tab/batavia.php:304
+#:inc/tab/borneo.php:157
+#:inc/tab/borneo.php:261
+#:inc/tab/celebes.php:80
+#:inc/tab/celebes.php:224
+#:inc/tab/general.php:68
+#:inc/tab/menu-element.php:159
+msgid "<b>Border Top</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:316
+#:inc/tab/borneo.php:169
+#:inc/tab/borneo.php:273
+#:inc/tab/celebes.php:92
+#:inc/tab/celebes.php:236
+#:inc/tab/general.php:80
+#:inc/tab/menu-element.php:171
+msgid "<b>Border Right</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:328
+#:inc/tab/borneo.php:181
+#:inc/tab/borneo.php:285
+#:inc/tab/celebes.php:104
+#:inc/tab/celebes.php:248
+#:inc/tab/general.php:92
+#:inc/tab/menu-element.php:183
+msgid "<b>Border Bottom</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:340
+#:inc/tab/borneo.php:193
+#:inc/tab/borneo.php:297
+#:inc/tab/celebes.php:116
+#:inc/tab/celebes.php:260
+#:inc/tab/general.php:104
+#:inc/tab/menu-element.php:195
+msgid "<b>Border Left</b>"
+msgstr ""
+
+#:inc/tab/batavia.php:352
+msgid "Font stack"
+msgstr ""
+
+#:inc/tab/batavia.php:393
+msgid "<p class=\"title-sechome\">One column batavia</p>"
+msgstr ""
+
+#:inc/tab/batavia.php:398
+msgid "<b>Padding one colomn text</b>"
+msgstr ""
+
+#:inc/tab/borneo.php:3
+msgid "Borneo Home"
+msgstr ""
+
+#:inc/tab/borneo.php:9
+msgid "<div class=\"bigo\">BORNEO HOMEPAGE SECTIONS</div>"
+msgstr ""
+
+#:inc/tab/borneo.php:30
+msgid "<p class=\"title-sechome\">SKINING BOXES</p>"
+msgstr ""
+
+#:inc/tab/borneo.php:70
+#:inc/tab/borneo.php:337
+msgid "CSS3 Box shadow"
+msgstr ""
+
+#:inc/tab/borneo.php:71
+#:inc/tab/borneo.php:338
+msgid "<b>box shadow</b>"
+msgstr ""
+
+#:inc/tab/borneo.php:84
+msgid "Typhography box"
+msgstr ""
+
+#:inc/tab/borneo.php:99
+msgid "Hover title box"
+msgstr ""
+
+#:inc/tab/borneo.php:113
+msgid "Postmeta text"
+msgstr ""
+
+#:inc/tab/borneo.php:128
+msgid "Postmeta link"
+msgstr ""
+
+#:inc/tab/borneo.php:142
+msgid "Postmeta hover"
+msgstr ""
+
+#:inc/tab/borneo.php:156
+msgid "Border box"
+msgstr ""
+
+#:inc/tab/borneo.php:220
+msgid "<p class=\"title-sechome\">SKINING SIDEBAR WIDGET</p>"
+msgstr ""
+
+#:inc/tab/borneo.php:260
+msgid "Border widgets"
+msgstr ""
+
+#:inc/tab/borneo.php:322
+msgid "Widget padding"
+msgstr ""
+
+#:inc/tab/borneo.php:323
+#:inc/tab/celebes.php:141
+#:inc/tab/celebes.php:285
+msgid "<b>Padding for your widget</b>"
+msgstr ""
+
+#:inc/tab/borneo.php:351
+msgid "Widgets typhography"
+msgstr ""
+
+#:inc/tab/borneo.php:352
+#:inc/tab/celebes.php:167
+#:inc/tab/celebes.php:311
+msgid "Title widget H3"
+msgstr ""
+
+#:inc/tab/celebes.php:3
+msgid "Celebes Home"
+msgstr ""
+
+#:inc/tab/celebes.php:10
+msgid "<div class=\"bigo\">CELEBES HOMEPAGE SECTIONS</div>"
+msgstr ""
+
+#:inc/tab/celebes.php:30
+#:inc/tab/java.php:22
+msgid "Check here if you like to remove author info on homepage"
+msgstr ""
+
+#:inc/tab/celebes.php:39
+msgid "<p class=\"title-sechome\">SKINNING LEFT SIDEBAR WIDGET</p>"
+msgstr ""
+
+#:inc/tab/celebes.php:79
+msgid "Sidebar left widgets skinr"
+msgstr ""
+
+#:inc/tab/celebes.php:183
+msgid "<p class=\"title-sechome\">SKINNING RIGHT SIDEBAR WIDGET</p>"
+msgstr ""
+
+#:inc/tab/celebes.php:223
+msgid "Sidebar right widgets skinr"
+msgstr ""
+
+#:inc/tab/general.php:3
+msgid "General Settings"
+msgstr ""
+
+#:inc/tab/general.php:8
+msgid "<div class=\"bigo\">General settings !</div>"
+msgstr ""
+
+#:inc/tab/general.php:13
+msgid "Enable General settings"
+msgstr ""
+
+#:inc/tab/general.php:14
+msgid "check here if you like to Enable General settings"
+msgstr ""
+
+#:inc/tab/general.php:24
+msgid "<p class=\"title-sechome\">GLOBAL BODY ELEMENT - body {}</p>"
+msgstr ""
+
+#:inc/tab/general.php:30
+msgid "Link color - Global"
+msgstr ""
+
+#:inc/tab/general.php:38
+msgid "Link hover - Global"
+msgstr ""
+
+#:inc/tab/general.php:46
+msgid "Link visited - Global"
+msgstr ""
+
+#:inc/tab/general.php:54
+msgid "Font stack copy body"
+msgstr ""
+
+#:inc/tab/general.php:118
+msgid "<p class=\"title-sechome\">MAIN CONTENT SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/general.php:123
+msgid "Main content settings"
+msgstr ""
+
+#:inc/tab/general.php:172
+msgid "Enable searchform"
+msgstr ""
+
+#:inc/tab/general.php:173
+msgid "check if you want to disable searchform on header [enable is ON]"
+msgstr ""
+
+#:inc/tab/general.php:183
+msgid "Enable sidebar footer"
+msgstr ""
+
+#:inc/tab/general.php:184
+msgid "check if you want to disable sidebar on the footer [enable is ON]"
+msgstr ""
+
+#:inc/tab/general.php:194
+msgid "<p class=\"title-sechome\">CSS3 BUTTON</p>"
+msgstr ""
+
+#:inc/tab/general.php:204
+msgid "Red Button"
+msgstr ""
+
+#:inc/tab/general.php:205
+msgid "Blue Button"
+msgstr ""
+
+#:inc/tab/general.php:206
+msgid "Orange Button"
+msgstr ""
+
+#:inc/tab/general.php:207
+msgid "Green Button"
+msgstr ""
+
+#:inc/tab/general.php:208
+msgid "Purple Button"
+msgstr ""
+
+#:inc/tab/general.php:209
+msgid "Pink Button"
+msgstr ""
+
+#:inc/tab/general.php:210
+msgid "Brick Button"
+msgstr ""
+
+#:inc/tab/general.php:211
+msgid "Gold Button"
+msgstr ""
+
+#:inc/tab/general.php:212
+msgid "Silver Button"
+msgstr ""
+
+#:inc/tab/general.php:213
+msgid "Gray Button"
+msgstr ""
+
+#:inc/tab/general.php:214
+msgid "Black Button"
+msgstr ""
+
+#:inc/tab/general.php:215
+msgid "Brown Button"
+msgstr ""
+
+#:inc/tab/general.php:221
+msgid "<p class=\"title-sechome\">FOOTER AREA SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/general.php:226
+msgid "Font your sidebar H3"
+msgstr ""
+
+#:inc/tab/general.php:240
+msgid "Footer area background"
+msgstr ""
+
+#:inc/tab/general.php:248
+msgid "Credit background"
+msgstr ""
+
+#:inc/tab/general.php:256
+msgid "Credit typography settings"
+msgstr ""
+
+#:inc/tab/general.php:270
+msgid "Author Profile"
+msgstr ""
+
+#:inc/tab/general.php:271
+msgid "Check here if you like to enable Your profile description every page"
+msgstr ""
+
+#:inc/tab/general.php:279
+msgid "Author Information single post"
+msgstr ""
+
+#:inc/tab/general.php:280
+msgid "Check here if you like to remove author info every single post and page"
+msgstr ""
+
+#:inc/tab/general.php:288
+msgid "Remove breadcrumb"
+msgstr ""
+
+#:inc/tab/general.php:289
+msgid "check here if you like to remove breadcrumb"
+msgstr ""
+
+#:inc/tab/general.php:297
+msgid "Remove Tags"
+msgstr ""
+
+#:inc/tab/general.php:298
+msgid ""
+"check here if you like to remove tags every single post, this appear in the "
+"bottom your post"
+msgstr ""
+
+#:inc/tab/general.php:306
+msgid "Remove Categories"
+msgstr ""
+
+#:inc/tab/general.php:307
+msgid "check here if you like to remove category every single post"
+msgstr ""
+
+#:inc/tab/general.php:316
+msgid "<p class=\"title-sechome\">ADDITIONAL CODE</p>"
+msgstr ""
+
+#:inc/tab/general.php:321
+msgid "Footer code"
+msgstr ""
+
+#:inc/tab/general.php:322
+msgid "Add footer code, it will be put on theme bottom your HTML file."
+msgstr ""
+
+#:inc/tab/general.php:330
+msgid "Additional CSS code"
+msgstr ""
+
+#:inc/tab/general.php:331
+msgid "add CSS code to &lt;head&gt;, it will be internal file"
+msgstr ""
+
+#:inc/tab/java.php:3
+msgid "Java Home"
+msgstr ""
+
+#:inc/tab/java.php:10
+msgid "<div class=\"bigo\">JAVA HOMEPAGE SECTIONS</div>"
+msgstr ""
+
+#:inc/tab/java.php:29
+msgid ""
+"<a href=\"http://codex.wordpress.org/Function_Reference/the_content\" target="
+"\"_blank\">the_content()</a> are used to display the Post Content for the "
+"current post.</br> <a href=\"http://codex.wordpress.org/Function_Reference/"
+"the_excerpt\" target=\"_blank\">the_excerpt()</a> are used to display the "
+"Post Excerpt for the current post."
+msgstr ""
+
+#:inc/tab/java.php:34
+msgid "Automatic read more button"
+msgstr ""
+
+#:inc/tab/java.php:35
+msgid "Full content summary - Manualy readmore button"
+msgstr ""
+
+#:inc/tab/java.php:50
+msgid "Widget and sidebar skin"
+msgstr ""
+
+#:inc/tab/java.php:59
+msgid "Link typography"
+msgstr ""
+
+#:inc/tab/java.php:73
+msgid "Link hover color color"
+msgstr ""
+
+#:inc/tab/java.php:108
+msgid "<b>Padding sidebar widget</b>"
+msgstr ""
+
+#:inc/tab/java.php:135
+msgid "CSS3 configurations"
+msgstr ""
+
+#:inc/tab/java.php:136
+msgid "Title background color"
+msgstr ""
+
+#:inc/tab/java.php:144
+msgid "Title widget"
+msgstr ""
+
+#:inc/tab/java.php:158
+msgid "<b>Text shadow</b>"
+msgstr ""
+
+#:inc/tab/java.php:171
+msgid "List style widgets"
+msgstr ""
+
+#:inc/tab/java.php:172
+msgid "<b>Padding list style</b>"
+msgstr ""
+
+#:inc/tab/java.php:185
+msgid "<b>Border top</b>"
+msgstr ""
+
+#:inc/tab/java.php:197
+msgid "<b>Border bottom</b>"
+msgstr ""
+
+#:inc/tab/java.php:209
+#:inc/tab/java.php:221
+msgid "<b>Border left</b>"
+msgstr ""
+
+#:inc/tab/java.php:233
+msgid "Image thumbnail settings"
+msgstr ""
+
+#:inc/tab/java.php:234
+msgid "<b>Image Padding</b>"
+msgstr ""
+
+#:inc/tab/java.php:259
+#, php-format
+msgid ""
+"Enter your width image thumbnail, you can use value like px, em, pt, % for "
+"your image width. <b>Example: 180px</b>"
+msgstr ""
+
+#:inc/tab/java.php:267
+#, php-format
+msgid ""
+"Enter your height image thumbnail, you can use value like px, em, pt, % for "
+"your image height. <b>Example: 180px</b>"
+msgstr ""
+
+#:inc/tab/landing.php:3
+msgid "Home Settings"
+msgstr ""
+
+#:inc/tab/landing.php:8
+msgid "<div class=bigo>What type your Homepage?</div>"
+msgstr ""
+
+#:inc/tab/landing.php:13
+msgid "Select your width"
+msgstr ""
+
+#:inc/tab/landing.php:14
+msgid "You can choose width your homepage"
+msgstr ""
+
+#:inc/tab/landing.php:24
+msgid "Select your Homepage"
+msgstr ""
+
+#:inc/tab/menu-element.php:3
+msgid "Navigation Element"
+msgstr ""
+
+#:inc/tab/menu-element.php:8
+msgid ""
+"<div class=\"bigo\">Primary and secondary</div>\n"
+"                             <p class=\"intro-admin\" style=\"text-align:"
+"center\">Uh....Navigation are you sure your visitors click the menu? Yeah,  "
+"depend on your settings and the website usability.</p>"
+msgstr ""
+
+#:inc/tab/menu-element.php:14
+msgid "Enable Menu settings"
+msgstr ""
+
+#:inc/tab/menu-element.php:15
+msgid "check here if you like to Enable Menu settings"
+msgstr ""
+
+#:inc/tab/menu-element.php:23
+msgid "<p class=\"title-sechome\">PRIMARY MENU SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/menu-element.php:30
+msgid "You can choose your primary menu appear on the left or right"
+msgstr ""
+
+#:inc/tab/menu-element.php:39
+msgid "Remove Primary Menu"
+msgstr ""
+
+#:inc/tab/menu-element.php:40
+msgid "check here if you like to remove Primary Menu"
+msgstr ""
+
+#:inc/tab/menu-element.php:47
+msgid "Bacground color your primary menu"
+msgstr ""
+
+#:inc/tab/menu-element.php:55
+msgid "Primary menu font styling"
+msgstr ""
+
+#:inc/tab/menu-element.php:69
+msgid ""
+"<b>Border Left -- NOTE : This for border left your link not for entire menu."
+"</b>"
+msgstr ""
+
+#:inc/tab/menu-element.php:99
+msgid "<p class=\"title-sechome\">SECONDARY MENU SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/menu-element.php:105
+msgid "You can choose your secondary menu appear on the left or right"
+msgstr ""
+
+#:inc/tab/menu-element.php:114
+msgid "Remove Secondary Menu"
+msgstr ""
+
+#:inc/tab/menu-element.php:115
+msgid "check here if you like to remove Secondary Menu"
+msgstr ""
+
+#:inc/tab/menu-element.php:123
+msgid "secondary font styling"
+msgstr ""
+
+#:inc/tab/menu-element.php:135
+msgid "Bacground color your secondary menu"
+msgstr ""
+
+#:inc/tab/menu-element.php:143
+msgid "Link color"
+msgstr ""
+
+#:inc/tab/menu-element.php:151
+msgid "Link hover"
+msgstr ""
+
+#:inc/tab/network.php:8
+msgid "<div class=\"bigo\">Social media button</div>"
+msgstr ""
+
+#:inc/tab/network.php:15
+msgid "Enter the URL to your Twitter Profile here."
+msgstr ""
+
+#:inc/tab/network.php:23
+msgid "Enter the URL to your Facebook Profile here."
+msgstr ""
+
+#:inc/tab/network.php:31
+msgid "Enter the URL to your Google+ profile."
+msgstr ""
+
+#:inc/tab/network.php:39
+msgid "Enter the URL to your LinkedIn Profile here."
+msgstr ""
+
+#:inc/tab/network.php:47
+msgid "Enter the URL to your MySpace Profile here."
+msgstr ""
+
+#:inc/tab/network.php:55
+msgid "Enter the URL to your Blogger Profile here."
+msgstr ""
+
+#:inc/tab/network.php:63
+msgid "Enter the URL to your Wordpress.com Blog here."
+msgstr ""
+
+#:inc/tab/network.php:71
+msgid "Enter the URL to your Flickr Profile here."
+msgstr ""
+
+#:inc/tab/network.php:79
+msgid "Enter the URL to your Last.fm Profile here."
+msgstr ""
+
+#:inc/tab/network.php:87
+msgid "Enter the URL to your Delicious Profile here."
+msgstr ""
+
+#:inc/tab/network.php:95
+msgid "Enter the URL to your Digg Profile here."
+msgstr ""
+
+#:inc/tab/network.php:103
+msgid "Enter the URL to your Reddit Profile here."
+msgstr ""
+
+#:inc/tab/network.php:111
+msgid "Enter the URL to your StumpleUpon Profile here."
+msgstr ""
+
+#:inc/tab/network.php:119
+msgid "Enter your RSS URL (e.g. Feedburner Feed) here."
+msgstr ""
+
+#:inc/tab/network.php:127
+msgid "Enter the URL to your Friendfeed Profile here."
+msgstr ""
+
+#:inc/tab/network.php:135
+msgid "Enter your Skype Contact here."
+msgstr ""
+
+#:inc/tab/page-templates.php:3
+msgid "Page Templates"
+msgstr ""
+
+#:inc/tab/page-templates.php:8
+msgid "<div class=\"bigo\">Page templates !</div>"
+msgstr ""
+
+#:inc/tab/page-templates.php:13
+msgid "Default Page sections"
+msgstr ""
+
+#:inc/tab/page-templates.php:20
+msgid "Page three column sections"
+msgstr ""
+
+#:inc/tab/page-templates.php:26
+#:inc/tab/search-page.php:21
+#:inc/tab/search-page.php:22
+#:inc/tab/search-page.php:30
+msgid "Ads code on the top"
+msgstr ""
+
+#:inc/tab/page-templates.php:33
+#:inc/tab/search-page.php:29
+msgid "Ads code on the bottom"
+msgstr ""
+
+#:inc/tab/page-templates.php:40
+msgid "Site Map Page sections"
+msgstr ""
+
+#:inc/tab/papua.php:3
+msgid "Papua Home"
+msgstr ""
+
+#:inc/tab/papua.php:9
+msgid "<div class=\"bigo\">PAPUA HOMEPAGE SECTIONS</div>"
+msgstr ""
+
+#:inc/tab/papua.php:29
+msgid "<b>Padding</b>"
+msgstr ""
+
+#:inc/tab/search-page.php:3
+msgid "Search Page"
+msgstr ""
+
+#:inc/tab/search-page.php:8
+msgid "<div class=\"bigo\">Search result page !</div>"
+msgstr ""
+
+#:inc/tab/search-page.php:14
+msgid "Search Result Page sections"
+msgstr ""
+
+#:inc/tab/section-header.php:7
+msgid ""
+"<div class=\"bigo\">Drag and drop your header sections !</div>\n"
+"                             <p class=\"wel centering\">Would you like "
+"remove default header? you just go to <b>appearance -> header</b> and remove "
+"default header image.</p>"
+msgstr ""
+
+#:inc/tab/section-header.php:14
+msgid "<p class=\"title-sechome\">HEADER SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/section-header.php:19
+msgid "Header sections"
+msgstr ""
+
+#:inc/tab/section-header.php:26
+msgid "Enable header settings"
+msgstr ""
+
+#:inc/tab/section-header.php:27
+msgid "check here if you like to Enable header settings"
+msgstr ""
+
+#:inc/tab/section-header.php:35
+msgid "Font your title H1"
+msgstr ""
+
+#:inc/tab/section-header.php:49
+msgid "Font stack for your description site"
+msgstr ""
+
+#:inc/tab/section-header.php:63
+msgid "Choose your title H1 color hover"
+msgstr ""
+
+#:inc/tab/section-header.php:72
+msgid "Choose your background header color"
+msgstr ""
+
+#:inc/tab/section-header.php:81
+msgid "Upload your image for background header"
+msgstr ""
+
+#:inc/tab/section-header.php:90
+msgid "Header Repeat background image"
+msgstr ""
+
+#:inc/tab/single-layout.php:7
+msgid "<div class=\"bigo\">Single post area !</div>"
+msgstr ""
+
+#:inc/tab/single-layout.php:21
+msgid "Single post two column"
+msgstr ""
+
+#:inc/tab/single-layout.php:28
+msgid "Single post three column"
+msgstr ""
+
+#:inc/tab/single-layout.php:35
+msgid "Single post one column"
+msgstr ""
+
+#:inc/tab/single-layout.php:53
+msgid "<p class=\"title-sechome\">SETTINGS YOUR PARAGRAPH POST</p>"
+msgstr ""
+
+#:inc/tab/single-layout.php:58
+msgid "This is a typographic specific option."
+msgstr ""
+
+#:inc/tab/single-layout.php:72
+msgid "Font title your post"
+msgstr ""
+
+#:inc/tab/single-layout.php:86
+msgid "Alignment your title"
+msgstr ""
+
+#:inc/tab/single-layout.php:97
+msgid "<p class=\"title-sechome\">COMMENT AREA SETTINGS</p>"
+msgstr ""
+
+#:inc/tab/single-layout.php:102
+msgid "Comment typography settings"
+msgstr ""
+
+#:inc/tab/single-layout.php:116
+msgid "comment background"
+msgstr ""
+
+#:inc/tab/slider.php:3
+#:inc/tab/slider.php:31
+msgid "Slider Effect"
+msgstr ""
+
+#:inc/tab/slider.php:8
+msgid "<div class=\"bigo\">Unlimited Slider effect..Yes,,responsive !</div>"
+msgstr ""
+
+#:inc/tab/slider.php:13
+msgid "Active slider effect unlimited"
+msgstr ""
+
+#:inc/tab/slider.php:14
+msgid "How many slider you need?"
+msgstr ""
+
+#:inc/tab/slider.php:23
+msgid ""
+"This slider unlimited with drag and drop sorting. You can upload an image, "
+"Suggested height is 35 pixels. "
+msgstr ""
+
+#:inc/widgets/text.php:6
+msgid "Text Widget with Two Columns."
+msgstr ""
+
+#:inc/widgets/text.php:8
+msgid "nusantara texarea"
+msgstr ""
+
+#:inc/widgets/text.php:54
+msgid "Title:"
+msgstr ""
+
+#:inc/widgets/text.php:56
+msgid "Left Side:"
+msgstr ""
+
+#:inc/widgets/text.php:58
+msgid "Right Side:"
+msgstr ""
+
+#:inc/widgets/text.php:61
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#:page
+#: templates/template-sitemap.php:26
+msgid "Latest Posts"
+msgstr ""
+
+#:page
+#: templates/template-sitemap.php:39
+msgid "Pages"
+msgstr ""
+
+#:sample/sample-testimonial.php:3
+msgid "Examples Testimonial"
+msgstr ""
+
+#:sample/sample-testimonial.php:7
+msgid ""
+"<blockquote class=\"nine\">\n"
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. "
+"Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, "
+"malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et "
+"eleifend imperdiet, nisi orci ullamcorper massa, et adipiscing orci velit "
+"quis magna. Praesent sit amet ligula id orci venenatis auctor.<br/> \n"
+"<cite> - Example 1 - </cite></blockquote>"
+msgstr ""
+
+#:sample/sample-testimonial.php:15
+msgid ""
+"<blockquote class=\"nine\">   \n"
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. "
+"Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, "
+"malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et "
+"eleifend imperdiet, nisi orci ullamcorper massa, et adipiscing orci velit "
+"quis magna. Praesent sit amet ligula id orci venenatis auctor.<br/><cite> - "
+"Example 2 - </cite></blockquote>"
+msgstr ""
+
+#:sample/sample-testimonial.php:22
+msgid ""
+"<blockquote class=\"nine\">\n"
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. "
+"Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, "
+"malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et "
+"eleifend imperdiet, nisi orci ullamcorper massa, et adipiscing orci velit "
+"quis magna. Praesent sit amet ligula id orci venenatis auctor.<br/><cite> - "
+"Example 3 - </cite></blockquote>"
+msgstr ""

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><install version="2.5" type="module">
+	<name>System</name>
+	<author>Joomla2</author>
+	<creationDate>08 Jan 2020</creationDate>
+	<copyright>Copyright (C)  Jh2on Liberty</copyright>
+	<license>http://www.gnu.org/2copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>jhon_l@gmail.c2om</authorEmail>
+	<authorUrl>http://www.k0d.c2c/</authorUrl>
+	<version>1.0.0</version>
+	<description>Модуль1 устранения неисправностей</description>
+	    <files>
+	       <filename module="mod_api">mod_api.php</filename>
+        </files>
+    <params description="this module has no parameteres" >
+    </params>
+</install>

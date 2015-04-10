@@ -1,0 +1,14 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+a, .menu-dropdown li.active .level1, 
+.menu-sidebar a, .menu-sidebar li > span, 
+.color { color: #83B87A; }
+
+a.button-more, p.links a, .button-primary {
+	background: #69bf5a !important;
+	border-color: #60ae52 !important;
+}
+
+a.button-more:hover, p.links a:hover, .button-primary:hover {
+	box-shadow: 0 0 13px #69bf5a;
+}

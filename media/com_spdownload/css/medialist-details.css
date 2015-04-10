@@ -1,0 +1,41 @@
+/**
+ * @package		SP Download
+ * @subpackage	Components
+ * @copyright	SP CYEND - All rights reserved.
+ * @author		SP CYEND
+ * @link		http://www.cyend.com
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+.outline {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  padding: 2px;
+}
+
+.manager table td,
+.manager table th {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 11px;
+	border-right: 1px dashed #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #fff;
+	text-align: center;
+}
+
+.manager table td.filesize {
+	text-align: right;
+}
+
+.manager table td.description {
+	text-align: left;
+}
+
+.manager table th {
+	border-top: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #999;
+	background: #F0F0F0;
+	padding: 4px;
+	color: #666;
+}

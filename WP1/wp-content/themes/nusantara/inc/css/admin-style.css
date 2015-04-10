@@ -1,0 +1,953 @@
+.centering{text-align:center;}
+.got-info{float:left;margin-right:13px;margin-top:8px;border:1px solid #999;padding:5px;width:225px;height:120px;background:#fff;}
+.got-info2{float:right;margin-left:13px;margin-top:8px;border:1px solid #999;padding:5px;}
+html{background:#f5f5f5;}
+.bigo{font-family:helvetica, arial, san-serif;font-size:3.5em;text-align:center;width:auto;line-height:1.3em;font-weight:bold;}
+.title-sechome{margin:0;font-family:helvetica, arial, san-serif;font-size:2em;text-align:center;width:auto;line-height:1.3em;font-weight:bold;}
+.intro-admin{font-size:1.6em;line-height:1.3em;font-family:palatino linotype;}
+.wel{font-size:1.7em;line-height:1.1em;margin-bottom:6px;}
+.checkbox {display:inline-block;position:relative;text-align:left;width:65px;height:auto;background-color:#eee;overflow:hidden;border:1px solid #999;cursor:pointer;}
+.checkbox input {
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+    margin:0 0;
+    cursor:pointer;
+    opacity:0;
+    filter:alpha(opacity=0);
+    z-index:2;
+}
+
+.checkbox label {
+    background-color:#f7205d;       
+    display:inline-block;
+    width:40px;margin:0;
+    text-align:center;
+    font:bold 11px/28px Arial,Sans-Serif;
+    color:#fff;   
+}
+.checkbox label:before {
+    content:attr(data-off);
+}
+.checkbox input:checked + label {
+    margin-left:25px;
+    background-color:#20b3f7;
+    color:white;
+}
+.checkbox input:checked + label:before {
+    content:attr(data-on);
+}
+
+.updated, .error {
+	display:none!important
+} 
+#nusantara-option-introductions ol{padding:5px 20px;}
+#nusantara_container {
+	margin: 15px;
+	width:0 auto ;
+	position:relative;
+	z-index: 0
+}
+#nusantara_container #header {
+	height: auto;
+	background:#f1f1f1;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+	background-image: -ms-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -moz-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -o-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: linear-gradient(top,#f9f9f9,#ececec);
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+#nusantara_container #header .logo {
+	float: left;
+	margin:10px 20px;
+}
+#nusantara_container #js-warning {
+    color: red;
+    float: left;
+    margin: 20px 10px;
+    width: 330px;
+}
+#nusantara_container ul,#nusantara_container ol {margin: 0;}
+.js #nusantara_container #js-warning {
+ display: none;
+ }
+
+#nusantara_container #header .logo h2 {
+	display:inline-block;
+	font-style:normal;
+	padding-right:5px;
+}
+#nusantara_container #header .logo span {
+	color:#888888;
+}
+#nusantara_container #header .icon-option {
+	float: right;
+	height: 48px;
+	width: 48px;
+	background: url(../images/icon_option.png) no-repeat;
+	margin:10px 30px 0 0;
+}
+#nusantara_container #info_bar {
+	background: #f3f3f3;
+	border:solid #d8d8d8;
+	border-bottom:1px solid #D8D8D8;
+	border-width:0px 1px 1px 1px;
+	padding: 6px 20px 0px 6px;
+	height: 31px;
+	text-align: right;
+	-moz-box-shadow: inset 0 1px 0 #fcfcfc;
+	-webkit-box-shadow: inset 0 1px 0 #fcfcfc;
+	box-shadow: inset 0 1px 0 #fcfcfc;
+}
+#nusantara_container #expand_options{
+       cursor: pointer;
+       display: block;
+       height: 22px;
+       width: 21px;
+       float: left;
+      font-size:0px;
+      text-indent: -9999px;
+      margin: 0 0 0 10px;
+      border: 1px solid #bbb;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+}
+#nusantara_container  #info_bar .expand { background: url(../images/toggle_tabs.png) no-repeat -2px -1px; }
+#nusantara_container #info_bar .close { background: url(../images/toggle_tabs.png) no-repeat -2px -26px; }
+#nusantara_container #expand_options:hover {
+	cursor: pointer;
+	border-color: #888;
+}
+#nusantara_container #main {
+	background-color: #f1f1f1;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+#nusantara_container #nusantara-nav {
+	float: left;
+	position: relative;
+	z-index: 9999;
+	width: 160px;
+}
+#nusantara_container #nusantara-nav ul {
+	margin:0;
+}
+#nusantara_container #nusantara-nav li {
+	margin-bottom:0;
+	-moz-box-shadow: inset 0 1px 0 #f9f9f9;
+	-webkit-box-shadow: inset 0 1px 0 #f9f9f9;
+	box-shadow: inset 0 1px 0 #f9f9f9;
+	margin-right: 1px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+#nusantara_container #nusantara-nav li:last-child {
+	-moz-box-shadow: inset 0 1px 0 #f9f9f9, 0 1px 0 #f9f9f9;
+	-webkit-box-shadow: inset 0 1px 0 #f9f9f9, 0 1px 0 #f9f9f9;
+	box-shadow: inset 0 1px 0 #f9f9f9, 0 1px 0 #f9f9f9;
+}
+
+#nusantara_container #nusantara-nav li.current {
+	margin-right: 0;
+}
+
+#nusantara_container #nusantara-nav li a, 
+#nusantara_container #nusantara-nav ul li a:link, 
+#nusantara-nav ul li a:visited {
+	display: block;
+	padding: 10px 10px 10px 38px;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	font-weight:bold;
+	font-size: 11px;
+	text-decoration: none;
+	color: #555;
+	opacity: 0.5;
+}
+#nusantara_container #nusantara-nav ul li.current a {
+	background-color: #fcfcfc;
+	color: #797979;
+	opacity: 1;
+}
+
+#nusantara_container #nusantara-nav ul li a:hover {
+	color: #d54e21;
+	opacity: 1;
+}
+
+/*menu icons - customize to your liking*/
+
+#nusantara_container #nusantara-nav li.generalsettings a{ 
+        background-image:url(../images/icons/toolkit.gif);
+}
+#nusantara_container #nusantara-nav li.socialbutton a{ 
+        background-image:url(../images/icons/groups.gif);
+}
+#nusantara_container #nusantara-nav li.slidereffect a{ 
+        background-image:url(../images/icons/slide.png);
+}
+#nusantara_container #nusantara-nav li.homesettings a{ 
+        background-image:url(../images/icons/home.gif);
+}
+#nusantara_container #nusantara-nav li.introductions a {
+        background: url(../images/icons/coffee.png) no-repeat;
+}
+#nusantara_container #nusantara-nav li.navigationelement a {
+        background: url(../images/icons/layout.gif) no-repeat;
+}
+#nusantara_container #nusantara-nav li.logicalelement a {
+        background: url(../images/icons/lamp.png) no-repeat;
+}
+#nusantara_container #nusantara-nav li.headersections a {
+        background: url(../images/icons/fields.gif) no-repeat;
+}
+#nusantara_container #nusantara-nav li.singlepost a {
+        background: url(../images/icons/posting.png) no-repeat;
+}
+#nusantara_container #nusantara-nav li.adsarea a {
+        background: url(../images/icons/add_items.gif) no-repeat;
+}
+
+#nusantara_container #nusantara-nav li.searchpage a {
+        background: url(../images/icons/search.gif) no-repeat;
+}
+#nusantara_container #nusantara-nav li.pagetemplates a {
+        background: url(../images/icons/blocks.gif) no-repeat;
+}
+#nusantara_container #nusantara-nav li.backupoptions a {
+        background: url(../images/icons/backup.gif) no-repeat;
+}
+#nusantara_container #nusantara-nav li.bataviahome a,
+#nusantara_container #nusantara-nav li.javahome a,
+#nusantara_container #nusantara-nav li.andalashome a,
+#nusantara_container #nusantara-nav li.borneohome a,
+#nusantara_container #nusantara-nav li.papuahome a,
+#nusantara_container #nusantara-nav li.celebeshome a {
+        background: url(../images/icons/app_home.png) no-repeat;
+}
+#nusantara_container #content {
+	float: left;	
+	width:620px;
+	margin-left: -1px;
+	padding: 0 14px;
+	font-family: "Lucida Grande", Sans-serif;
+	background-color: #FCFCFC;
+	border-left: 1px solid #d8d8d8;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+#nusantara_container #content .section {
+	margin-bottom: 10px;
+	overflow-x : hidden;
+}
+#nusantara_container #content .section h3.heading {
+	font-family:Palatino Linotype;
+        font-size:1.5em;
+	margin: 10px 0 10px 0;
+	padding: 8px 0px;
+	border-bottom: 1px solid #e7e7e7;
+        color:#444;
+}
+#nusantara_container #content .section .controls {
+	float: left;
+	width:auto ;
+	margin: 0 15px 0 0;
+}
+#nusantara_container #content .section .explain {
+	float: left;
+	width: auto;
+	padding: 0 10px 0 0;
+	font-size: 12px;
+	color: #999999;
+}
+#nusantara_container #content .section-checkbox .controls {
+	width:60px
+}
+
+#nusantara_container #content .section-multicheck .controls input.checkbox {
+	margin-top:9px;
+}
+
+#nusantara_container #content .section-checkbox .explain {
+	max-width:93%; padding-left:20px;
+}
+#nusantara_container #content .section-color .controls {
+	width:105px
+}
+#nusantara_container #content .section-color .explain {
+	width:440px
+}
+#nusantara_container #content .section-info h3.heading {
+	display:none;
+}
+#nusantara_container #content .section-info .controls {
+	margin: 20px 0 0;
+	float:none;
+	width: auto;
+}
+#nusantara_container #content .section-info .controls .nusantara-info{
+	padding:5px 10px;
+	line-height: 1.5em;
+	font-size: 12px;
+	background:url(../images/bg.jpg);
+	border: 1px solid #ddd;
+	color:#555;
+}
+.h3-info{margin:5px 0 10px 0;font-size:2em;}
+#nusantara_container #content .section-info2 .controls .nusantara-info2{
+        margin:10px auto;
+	padding: 15px 10px;
+	line-height: 1.5em;
+	font-size: 12px;
+	background-color: #fff;
+	box-shadow:1px 2px 2px #999;
+	color:#222;
+}
+#nusantara_container #content .section-info .controls .nusantara-info ._icon { 
+	height:16px; width:16px;
+	margin: 0 10px 0 0;
+	float: left;
+}
+#nusantara_container #content .section-info .controls small {
+	font-size: 12px
+}
+#nusantara_container #content .section-info h3.heading {
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+#nusantara_container #content .section-info .controls {
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+#nusantara_container .sorter {margin-right: -20px;}
+#nusantara_container .sorter ul {
+	background: #f2f2f2;
+	border: 1px dashed #E3E3E3;
+	min-height: 40px;
+	padding: 10px 10px 0;
+	width: 250px;
+	float: left;
+	margin: 0 18px 0 0;
+}
+#nusantara_container  .sorter ul h3 {
+	margin: 0 0 10px 0;
+	text-align: center;padding:10px;
+	background-color:#9932cc;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#d481fd), to(#9932cc));
+	background-image:-webkit-linear-gradient(top, #d481fd, #9932cc);
+	background-image:-moz-linear-gradient(top, #d481fd, #9932cc);
+	background-image:-ms-linear-gradient(top, #d481fd, #9932cc);
+	background-image:-o-linear-gradient(top, #d481fd, #9932cc);
+	background-image:linear-gradient(top, #d481fd, #9932cc);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#d481fd, endColorstr=#9932cc);
+	border:1px solid #7a28a3;
+	color:#fff;
+	text-shadow:0 1px 0 #7a28a3;
+	text-transform: capitalize;
+}
+#nusantara_container  .sorter ul li {
+	border: 1px solid #DFDFDF;
+        color:#222;
+	cursor: move;
+	font-weight: bold;
+	margin-bottom:10px;
+	padding:0 10px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #F1F1F1;
+	background-image: -ms-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -moz-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -o-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: linear-gradient(top,#f9f9f9,#ececec);
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	text-align:center;
+}
+
+
+#nusantara_container #content .section-sorter li.placeholder {
+	background:#f9f9f9;
+	border-width:1px;
+	border-style:dashed;
+	height:40px;}
+	
+#nusantara_container #content .section-slider li.placeholder {
+	background:#f9f9f9;
+	border-width:1px;
+	border-style:dashed;
+	height:33px;}
+
+
+#nusantara_container textarea, #nusantara_container input, #nusantara_container select, #nusantara_container button{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-style:solid;
+	border-width:1px;
+}
+#nusantara_container .controls input, #nusantara_container .controls select, #nusantara_container .controls textarea {
+	margin-bottom: 9px !important;
+	background-color: #f1f1f1;
+	border: 1px solid;
+	border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+	width: 340px;
+	padding: 4px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	font-size: 12px;
+}
+#nusantara_container .controls input:hover, #nusantara_container .controls textarea:hover {
+	background-color: #f9f9f9;
+}
+
+#nusantara_container .controls input:focus, #nusantara_container .controls textarea:focus { 
+	background-color: #fff;
+	border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+	outline:0;
+}
+
+#nusantara_container .controls .upload {
+	width: 340px;
+}
+
+
+#nusantara_container .controls select {
+	height: 28px;
+	padding: 4px 5px;
+	width: 340px
+}
+#nusantara_container .controls textarea {
+	width: 345px;
+}
+#nusantara_container input[type=text] {
+	width: 340px;
+}
+#nusantara_container input.checkbox {
+	width: 60px;
+	margin-top:3px;
+}
+#nusantara_container input.nusantara-radio {
+	width: 30px;
+}
+label.radio, label.multicheck {
+  position: relative;
+  bottom: 0;
+}
+#nusantara_container .controls .input-text-small {
+	width: 60px;
+	margin-right:10px
+}
+#nusantara_container .meta-two {
+	margin-right:10px
+}
+#nusantara_container .controls .nusantara-color {
+	float:left;
+	width: 70px;
+	margin-left:5px; /* font-size:20px; height:34px;*/
+}
+#nusantara_container #content .section-typography .controls {
+	width:auto
+}
+#nusantara_container #content .section-typography .explain {
+	width:auto
+}
+#nusantara_container .controls .nusantara-typography-size {
+	width:70px;
+	float:left
+}
+#nusantara_container .controls .nusantara-typography-unit {
+	width:60px;
+	float:left
+}
+
+#nusantara_container .controls .nusantara-typography-face {
+	width:145px;
+	float:left
+}
+#nusantara_container .controls .nusantara-typography-style {
+	width:95px;
+	float:left
+}
+#nusantara_container .controls .nusantara-radio-img-img {
+	border:6px solid #eee;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+        width:500px;
+        height:170px;
+}
+#nusantara_container .controls .nusantara-radio-img-selected {
+	border:8px solid #7bc9fa;border-radius:3px;
+}
+#nusantara_container .controls .nusantara-radio-img-img:hover {
+	opacity:.7;
+}
+
+#nusantara_container .controls .nusantara-radio-tile-img {
+	width:50px;
+	height:50px;
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#nusantara_container .controls .nusantara-radio-tile-selected {
+	border:3px solid #ccc
+}
+#nusantara_container .controls .nusantara-radio-tile-img:hover {
+	opacity:.8;
+}
+
+#nusantara_container .controls .nusantara-border-width {
+	width:70px;
+	float:left
+}
+#nusantara_container .controls .nusantara-border-style {
+	width:95px;
+	float:left
+}
+#nusantara_container .group {
+	display:none;
+	padding-bottom:20px;
+}
+#nusantara_container .group h2 {
+	display:none;
+	border-bottom:3px solid #e7e7e7
+}
+#nusantara_container .controls input:focus, #nusantara_container select:focus, #nusantara_container textarea:focus {
+	background:#fff;
+}
+
+#nusantara_container .accept {
+	background: #DBF6BE no-repeat 10px center;
+	border: solid #9BBF65;
+	border-width: 0px 1px 1px 1px;
+	color: #060;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+#nusantara_container .warning {
+	background: #ffeeee no-repeat 10px center;
+	border: solid #dfbfbf;
+	border-width: 0px 1px 1px 1px;
+	color: #333;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+#nusantara_container .update_available {
+	background: #FFFEEB no-repeat 10px center;
+	border: solid #CCCCCC;
+	border-width: 0px 1px 1px 1px;
+	color: #333;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+#nusantara_container .nusantara-save-popup {
+	position:absolute;
+	background:rgba(0, 0, 0, 0.5);
+	color:#fff;
+	font-size:26px;
+	text-align:center;
+	display:none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+#nusantara_container .nusantara-save-popup div{
+	background-repeat: no-repeat;
+	background-position: 20px 50%;
+	padding:30px 30px 30px 60px;
+}
+#nusantara_container .nusantara-save-save {
+	background-image: url(../images/button_check.png);
+}
+#nusantara_container .nusantara-save-reset {
+	background-image: url(../images/sign_warning.png);
+}
+#nusantara_container .nusantara-save-fail {
+	background-image:url(../images/stop.png);
+}
+
+#nusantara_container .accept,
+#nusantara_container .warning,
+#nusantara_container .update_available,
+#nusantara_container .nusantara-save-popup {
+	z-index: 9999;
+}
+
+#nusantara_container .upload_button_div {
+	margin-top:7px;
+	margin-bottom: 15px;
+}
+
+#nusantara_container .button {
+     border-width: 1px;
+     border-style: solid;
+     -moz-border-radius: 3px;
+     -khtml-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+    border-color: #dfdfdf;
+    background-color: #fff;
+    margin:4px 0 4px;
+}
+
+
+#nusantara_container .button:hover,#nusantara_container .button_hover {
+border-color: #bbb;
+color: #111;
+}
+
+#nusantara_container .button_active {
+    background:#eee url(../../images/white-grad-active.png) repeat-x scroll left top;
+}
+
+#nusantara_container .upload_button_div .button {
+	padding:4px 7px;
+}
+#nusantara_container .image_reset_button, #nusantara_container .mlu_remove_button {
+	margin-left:10px;
+	color:#ef521d;
+}
+
+#nusantara_container .image_reset_button:hover, #nusantara_container .mlu_remove_button:hover {
+	color:red;
+}
+
+#nusantara_container .upload-error {
+	float:left;
+	color:#666;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 0 #FFFFFF;
+	margin: 0 10px 0 0;
+	padding:3px 10px;
+	background:#FFDFEC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#nusantara_container .reset-button {
+	font-family:Arial,Verdana,sans-serif;
+	float:left;
+	padding: 0 7px;
+	height: 23px;
+	line-height: 23px;
+	margin:0 ;
+	color: #ef521d;
+	border-color: #bbb;
+}
+
+#nusantara_container .reset-button:hover { color: #ef521d; border-color: #888}
+
+#nusantara_container .slide_add_button { float:right; margin-top:10px; }
+
+
+#nusantara_container .save_bar {
+	background: #f3f3f3;
+	border:solid #ccc;
+	border-width:0px 1px 1px 1px;
+	padding: 10px 20px 0px 20px;
+	height: 35px;
+	text-align: right;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+
+#nusantara_save {
+	font-family: Arial,Verdana,sans-serif;
+	padding: 0 7px;
+	height: 23px;
+	line-height: 23px;	
+	float:right;
+}
+#save_float {
+       position:fixed;
+       top:30%;
+       right:0;text-align:right;
+       cursor:pointer;
+}
+#save_float li{    
+       padding:2px 5px;
+       font-size:11px;
+       background:hsla(0,0%,100%,.7);
+       font-weight:bold;
+       border-bottom:1px solid #999;
+}
+#save_float li:hover{color:#f00;}
+#nusantara_container .hide {
+	display:none
+}
+#nusantara_container .ajax-loading-img-top {
+	margin: 5px 4px 0;
+	float:left
+}
+#nusantara_container .ajax-loading-img-bottom {
+	position:fixed;top:50%;left:50%;
+}
+#nusantara_container .ajax-reset-loading-img {
+	position:fixed;top:50%;left:50%;
+}
+
+#nusantara_container .screenshot { 
+	max-width:340px;
+	margin-bottom:9px;
+}
+
+#nusantara_container .nusantara-uploaded-image {
+	
+}
+
+#nusantara_container .nusantara-option-image {
+	max-width:340px;
+	padding: 5px;
+	border:1px solid #e3e3e3;
+	background:#f7f7f7;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+#nusantara_container .select_wrapper {
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+      font-size: 12px;
+      background: #F1F1F1 url(../images/select.png) no-repeat right center;
+      border-color: #CCC #E6E6E6 #E6E6E6 #CCC;;
+      border-style: solid;
+      border-width: 1px;
+      float: left;
+      height: 28px;
+      width: 344px;
+      margin: 0;
+      margin-bottom: 9px !important;
+      width: 340px;
+      display: block;
+      color: #888;
+      position:relative;
+}
+
+#nusantara_container .select_wrapper:hover {background-color:#f9f9f9;}
+
+#nusantara_container .mini .controls select, #nusantara_container #content .section .mini .controls, #nusantara_container  .controls .typography-size, #nusantara_container  .controls .border-width,#nusantara_container  .controls .mini,#nusantara_container .mini .controls input, #nusantara_container #content .mini .controls {width: 70px;}
+#nusantara_container  .controls .typography-face {width:auto;}
+#nusantara_container  .controls .typography-style, #nusantara_container  .controls .border-style {width: 95px;}
+#nusantara_container  .controls .typography-size,#nusantara_container  .controls .typography-face,#nusantara_container  .controls .typography-style, #nusantara_container  .controls .border-width, #nusantara_container  .controls .border-style {margin-right:5px;}
+
+#nusantara_container #content .mini .explain {
+	width:500px;
+}
+#nusantara_container .nusantara-notice {
+	background: #ffd1d1;
+	border:1px solid #DFDFDF;
+	-moz-border-radius:8px;
+	text-align: center;
+	margin-bottom: 15px
+}
+
+#nusantara_container .slider li {
+	width:96%;
+        margin:5px auto;
+        max-width:500px;
+        min-width:500px;
+	border: 1px solid #dfdfdf;
+	background:#f9f9f9;
+	overflow:hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+}
+
+#nusantara_container .slide_header {
+	cursor:move;
+	height:32px;
+	padding-left:10px;
+	padding-right:20px;
+	line-height:32px;
+	background-color: #F1F1F1;
+	margin: 1px 0 -1px 0;
+	border-bottom: 1px solid #dfdfdf;
+	background-image: -ms-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -moz-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -o-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: linear-gradient(top,#f9f9f9,#ececec);
+	overflow:hidden;
+	position: relative;
+}
+
+#nusantara_container .slide_body {
+	display:none;
+	padding:10px 10px 10px 11px;
+}
+
+
+#nusantara_container .slider li input,#nusantara_container .slider li textarea,#nusantara_container .slider li .screenshot,#nusantara_container .slider li .nusantara-option-image {
+	width:95%;
+}
+
+#nusantara_container a.slide_edit_button, #nusantara_container a.slide_delete_button {
+	text-indent:-9999px;
+	font-size:0;
+}
+#nusantara_container a.slide_edit_button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width:32px;
+	height:32px;
+	background: url(../images/dropdown-arrow.png) no-repeat 9px -28px;
+}
+	#nusantara_container a:hover.slide_edit_button {
+	background: url(../images/dropdown-arrow.png) no-repeat 9px 11px;}
+	
+#nusantara_container a.slide_delete_button { 
+	float: right;
+	margin: 0 0 0 7px;
+	width:16px;
+	height:16px;
+	background: url(../images/icon-delete.png) no-repeat
+}
+
+#nusantara_container .select_wrapper span {
+       height: 26px;
+       line-height: 26px;
+       z-index: 2;
+       padding-left: 6px;
+       position:absolute;
+       left:0;
+}
+
+#nusantara_container .select_wrapper .select {
+      cursor: pointer;
+      height: 28px;
+      margin: 0;
+      -moz-opacity: 0;
+     filter: alpha(opacity: 0);
+     opacity: 0;
+     padding: 0;
+     position: relative;
+     width: inherit;
+     z-index: 4;	
+}
+
+#nusantara_backup {
+	margin: 40px 20px;
+	width: 600px;
+}
+#nusantara_backup textarea {
+	margin-bottom: 9px !important;
+	background-color: #F1F1F1;
+	border: 1px solid;
+	width: 100%;
+	padding: 4px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	border-color: #CCC #E6E6E6 #E6E6E6 #CCC;
+}
+
+#nusantara_container #content .section-backup .controls { width: 80%}
+#nusantara_container #content .section-backup .explain {
+    display:none
+}
+#nusantara_container #content .section-backup .backup-box {
+    margin: 0 0 20px;
+}
+
+#nusantara_container #content .section-backup .instructions {
+    margin: 0 0 10px;
+    color: #777;
+}
+#nusantara_container #content .section-backup .button, #nusantara_container #content .section-transfer .button {
+    padding: 5px;
+    margin: 0 25px 0 0;
+    line-height: 30px
+}
+
+.temphide {display:none;}
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* Tipsy
+/*-------------------------------------------------------------------------------------------*/
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 100000; }
+  .tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #000; }
+  .tipsy-arrow-s { border-top-color: #000; }
+  .tipsy-arrow-e { border-left-color: #000; }
+  .tipsy-arrow-w { border-right-color: #000; }
+  
+	.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }

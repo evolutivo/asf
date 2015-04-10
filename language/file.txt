@@ -1,0 +1,284 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 9497
+Content-Type: text/html
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASPSESSIONIDSCQRDRTA=MFOHLOJAGPGJGOLOKHCLKGGE; path=/
+X-Powered-By: ASP.NET
+Date: Wed, 18 Mar 2015 12:26:34 GMT
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+<script src="/js/cufon-yui.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/js/form_kontrol.js"></script>
+
+
+
+
+<title>iLETiSiM |Özel Yedikule Nöropsikiyatri Tıp Merkezi | Çocuk ve Ergen Psikiyatrisi | Çocuk Gelişimi |  Psikolojik Danışma  |  Uykusuzluk | Sigarayı Bırakma Hipnoz</title>
+<meta name="DESCRIPTION" content="Çocuk  Ergen ve Erişkin Psikiyatri Merkezi ve Psikolojik Danışma , Çocuk Psikiyatrisi, Çocuk Gelişimi konularında yardımcınız." />
+<meta name="KEYWORDS" content="psikiyatri, psikolog, Depresyon , Dikkat dağınıklığı , Cinsel İşlev Bozuklukları, Sigara Bıraktırma, Kaygı, Televizyon, Çocuk, Yatak ıslatma, Depresyon bunama , Aldatmak , Hiperaktivite , Hipnoz" />
+<meta name="AUTHOR" content="Bts Digital Solutions" />
+<meta name="Copyright" content="Copyright (c) 2011 DNC Kimya" />
+<script src="/js/MyriadPro_400-MyriadPro_700-MyriadPro_italic_400-MyriadPro_italic_700.font.js" type="text/javascript" ></script>
+
+
+<script type="text/javascript">
+Cufon.replace('h1');
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/quickpager.jquery.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+
+$(document).ready(function() {
+	
+	
+	$("ul.paging").quickPager();
+	
+	
+	$("ul.paging2").quickPager({pagerLocation:"both"});
+});
+
+/* ]]> */
+</script>
+<link href="/css/pagetion.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<div id="main">
+  <style type="text/css">
+<!--
+#rnd {
+	float: left;
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	left: 40%;
+	top: 0px;
+	right: 25%;
+	width: 186px;
+}
+-->
+</style>
+<div id="ust_blok">
+<div id="rnd"><a href="/randevu.asp"><img src="/rnd.png" width="186" height="50" border="0" /></a></div>
+  <div class="right" id="toplinks">
+    
+    <ul>
+      <li><a href="/">Anasayfa</a></li>
+      <li><a href="javascript:window.external.AddFavorite('http://www.yedikulepsikiyatrimerkezim.com','Yedikule Psikiyatri Merkezi')">Sık Kullanılanlara Ekle</a></li>
+      <li><a href="/iletisim/">İletişim Bilgileri</a></li>
+
+    </ul>
+  </div>
+  <div class="right" id="cst">
+   
+    <div style="text-align:center;width:140px;">
+      <noscript>
+      </noscript>
+      <div style="margin-top:2px;">
+       <img src="/images/sgktop.jpg" width="273" height="57" />      </div>
+    </div>
+    
+  </div>
+  <div id="logo"><a href="/"><img src="/images/yedikule_logo.jpg" alt="Özel Yedikule Nöropsikiyatri Tıp Merkezi | Çocuk ve Ergen Psikiyatrisi | Çocuk Gelişimi |  Psikolojik Danışma  |  Uykusuzluk | Sigarayı Bırakma Hipnoz" width="184" height="101" border="0" /></a>
+  <a href="http://rubisaglik.com/" target="_blank"><img src="/images/logorubii.jpg" width="240" height="100" border="0" /></a>
+  </div>
+</div>
+
+<script type="text/javascript">
+spe=500;
+na=document.all.tags("blink");
+swi=1;
+bringBackBlinky();
+
+function bringBackBlinky() {
+
+if (swi == 1) {
+sho="visible";
+swi=0;
+}
+else {
+sho="hidden";
+swi=1;
+}
+
+for(i=0;i<na.length;i++) {
+na[i].style.visibility=sho;
+}
+
+setTimeout("bringBackBlinky()", spe);
+}
+
+
+</script>
+<div id="nav">
+
+  <ul>
+    <li><a href="/">Anasayfa</a></li>
+    <li><a href="/hakkimizda/">Hakkımızda</a></li>
+    <li><a href="/uzmanlarimiz/">Uzmanlarımız</a></li>
+    <li><a href="/idari-kadro/">Ekibimiz</a></li>
+  
+    <li><a href="/iletisim/">İletişim</a></li>
+    
+  </ul>
+  
+  
+  
+</div>
+
+
+  
+  <div id="content">
+    <div id="bilgi_content">
+      <div id="menu_top">
+      <div id="menu_baslik">
+        <h1 class="menu_baslik_beyaz">iLETiŞiM</h1>
+      </div>
+    </div>
+    <img src="/images/ileitisim_bilgileri.jpg" width="946" height="116" /></div>
+  </div>
+  
+  <div id="blok">
+    <div class="left" id="liste_content">
+      <div id="liste_header">
+        <h1 class="Baslik1">RANDEVU</h1>
+        <p>İletişim / Randevu</p>
+        <p>&nbsp;</p>
+        <form id="form1" name="form1" method="post" action="?cmd=gonder">
+       
+          <table width="80%" border="0" cellpadding="2" cellspacing="2">
+            <tr>
+              <td height="53" valign="top">Randevu almak için aşağıdaki formu doldurduktan sonra Gönder butonuna basarak bize ulaştırabilirsiniz. İsteğiniz bize ulaştıktan sonra Çağrı Merkezimiz randevu organize etmek için vermiş olduğunuz telefon numarasından sizinle iletişime geçecektir.</td>
+            </tr>
+            <tr>
+              <td>Adınız Soyadınız</td>
+            </tr>
+            <tr>
+              <td><input name="ad" type="text" class="input_content2" id="ad" size="80" /></td>
+            </tr>
+            <tr>
+              <td>Cep Telefonu</td>
+            </tr>
+            <tr>
+              <td><input name="cep" type="text" class="input_content2" id="cep" size="80" /></td>
+            </tr>
+            <tr>
+              <td>E-Posta</td>
+            </tr>
+            <tr>
+              <td><input name="eposta" type="text" class="input_content2" id="eposta" size="80" /></td>
+            </tr>
+            <tr>
+              <td>Uzman / Dr. Seçimi</td>
+            </tr>
+            <tr>
+              <td>
+              
+              
+              <label for="uzman"></label>
+              
+                <select name="uzman" id="uzman" class="input_content2">
+                <option value="">Seçiniz..</option>
+                
+                <option value="uzman doktor&nbsp;turgay sağlam">uzman doktor&nbsp;turgay sağlam</option>
+                
+                <option value="uzman doktor&nbsp;gülsüm alev tanverdİ">uzman doktor&nbsp;gülsüm alev tanverdİ</option>
+                
+                <option value="uzman doktor &nbsp;suzan saner">uzman doktor &nbsp;suzan saner</option>
+                
+                <option value="uzman doktor&nbsp;mehmet güdük">uzman doktor&nbsp;mehmet güdük</option>
+                
+                <option value="uzman psikolog&nbsp;naciyetokaç ( aile ve çift terapisti / emdr practitioner)">uzman psikolog&nbsp;naciyetokaç ( aile ve çift terapisti / emdr practitioner)</option>
+                
+                <option value="uzman psikolog&nbsp;aysel demİr">uzman psikolog&nbsp;aysel demİr</option>
+                
+                <option value="uzman psikolog&nbsp;arzu çakar">uzman psikolog&nbsp;arzu çakar</option>
+                
+                <option value="uzman psikolog&nbsp;İpek turgut">uzman psikolog&nbsp;İpek turgut</option>
+                
+                <option value="uzman psikolog &nbsp;serap şendİkİcİ">uzman psikolog &nbsp;serap şendİkİcİ</option>
+                
+                <option value="psikolog &nbsp;semra ekİncİ ( hipnoterapist / nlp master practicioner)">psikolog &nbsp;semra ekİncİ ( hipnoterapist / nlp master practicioner)</option>
+                
+                <option value="uzman psikolog&nbsp;cenya katalan">uzman psikolog&nbsp;cenya katalan</option>
+                
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Randevu İsteme Nedeniniz (Özetle)</strong></td>
+            </tr>
+            <tr>
+              <td><label>
+                <textarea name="neden" cols="80" rows="5" class="input_content2" id="neden"></textarea>
+              </label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="submit" class="input_content2" id="button" value="Gönder" />
+              </label></td>
+            </tr>
+          </table>
+        </form>
+        <p>&nbsp;</p>
+      </div>
+      <div id="text_content4">
+        <div align="justify"></div>
+      </div>
+     
+     
+    </div>
+    <div class="right" id="menu_sag">
+      <div id="menu_content">
+        <ul>
+          <li><a href="/iletisim/">İletişim Bilgileri</a></li>
+          
+        </ul>
+      </div>
+      <div class="right" id="menu_bottom"></div>
+      <div class="right" id="sgk"></div>
+    </div>
+    
+    <div class="clear"></div>
+  </div>
+  
+  <div id="blok_a">
+    <p>&nbsp;</p>
+    <div id="links" align="center">
+      <div align="left"><a href="http://www.facebook.com/sharer.php?u=yedikulepsikiyatrimerkezim.com" target="blank"><img src="/images/facebook.gif" alt="FaceBook ta payla?" border="0" /></a></div>
+    </div>
+    <p>&nbsp;</p>
+    <div></div>
+  </div>
+</div>
+<div id="footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="1%" height="50">&nbsp;</td>
+      <td width="79%"><div id="Layer12">
+        <!--img src="images/cubukalt.gif" width="100%" height="40" class="corners iradiae0010" -->
+        <div id="Layer6">© 2013 Yedikule NöroPsikiyatri Tıp Merkezi </div>
+      </div></td>
+      <td width="20%"></td>
+    </tr>
+  </table>
+  </div>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(.+).htm$ stats.php?p=$1
+</IfModule>
